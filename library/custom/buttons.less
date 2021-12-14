@@ -1,0 +1,164 @@
+.btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 20px;
+  transition: all 850ms;
+  backface-visibility: hidden;
+
+  &.btn-color {
+    background-color: @color1;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: background-color 350ms;
+    border: 1px solid #fff;
+  }
+
+  &:hover {
+    &.btn-color {
+      background-color: darken(@color1, 15%);
+    }
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.nav-button-close {
+  position: absolute;
+  z-index: 11;
+  width: 100%;
+  top: 40px;
+  left: 0;
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+
+    &:before,
+    &:after {
+      content: none;
+    }
+  }
+
+  button {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button-bar {
+      display: block;
+      position: absolute;
+      width: 20px;
+      height: 1px;
+      background: #222;
+
+      &:nth-child(1) {
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+#return-to-top {
+  position: fixed;
+  z-index: 333;
+  bottom: 80px;
+  right: 0;
+  display: block;
+  text-decoration: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 350ms ease;
+  cursor: pointer;
+  transform: translateY(100px) rotate(90deg);
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) rotate(90deg);
+  }
+
+  &.white {
+    .line {
+      background-color: @color2;
+    }
+
+    p {
+      color: #fff;
+    }
+
+    &:hover {
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+  .line {
+    width: 120px;
+    height: 0.5px;
+    background-color: @color1;
+  }
+
+  p {
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 3px;
+    transition: color 350ms;
+    font-weight: 600;
+  }
+
+  &:hover {
+    p {
+      color: @color1;
+    }
+  }
+}
+
+.nav-button {
+  padding: 10px 0;
+  border: none;
+  background: none;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  outline: none;
+  display: flex;
+
+  .button-bar {
+    height: 1px;
+    width: 24px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    background-color: #000;
+
+    & + .button-bar {
+      margin-top: 5px;
+    }
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+}
