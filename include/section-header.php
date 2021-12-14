@@ -13,7 +13,7 @@
                 </div>
                 <div class="management-logo opacity">
                     <a href="index">
-                        <p>NailsArt<span>Profesjonale szkolenia</span></p>
+                        <p>Moyci<span>Szkolenia manicure</span></p>
                     </a>
                 </div>
                 <div class="management-links">

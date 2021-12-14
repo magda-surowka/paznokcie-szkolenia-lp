@@ -200,7 +200,7 @@ nav.section-header {
   width: 100%;
 
   .header-management {
-    padding: 20px 0;
+    padding: 25px 0;
     max-height: 200px;
     overflow: hidden;
     display: flex;
@@ -239,18 +239,18 @@ nav.section-header {
         display: block;
         position: relative;
         transition: all 0.4s;
-        transform: translateY(10px);
+        transform: translateY(10px) translateZ(0);
         color: @color1;
         letter-spacing: 1px;
-        font-size: 68px;
-        line-height: 58px;
+        font-size: 90px;
+        line-height: 45px;
         font-family: "Italianno", cursive;
 
         span {
           display: block;
-          font-size: 13px;
+          font-size: 12px;
           line-height: 12px;
-          font-weight: 600;
+          font-weight: 700;
           letter-spacing: 1.5px;
           color: #000;
           font-family: "Cormorant", serif;
@@ -288,10 +288,12 @@ nav.section-header {
     background: rgba(@color2, 0.95);
 
     .header-management {
-      padding: 5px 0;
+      padding: 5px 0 15px;
 
       .management-logo {
         a {
+          transform: translateY(10px) scale(0.7);
+
           span {
             opacity: 0;
           }
