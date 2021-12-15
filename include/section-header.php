@@ -65,23 +65,20 @@
                     <img class="img-absolute"
                         src="img/pictures/colorful-nail-polish-bottles-placed-on-a-stone-table.png" alt="">
                     <li>
-                        <a href="">Manicure klasyczny</a>
+                        <a href="#o-mnie" data-scroll="scroll">O mnie</a>
                     </li>
                     <li>
-                        <a href="">Manicure hybrydowy</a>
+                        <a href="#oferta" data-scroll="scroll">Oferta szkoleń</a>
                     </li>
                     <li>
-                        <a href="">Przedłużenie bazą budującą</a>
+                        <a href="#faq" data-scroll="scroll">FAQ</a>
                     </li>
                     <li>
-                        <a href="">Metoda żelowa</a>
-                    </li>
-                    <li>
-                        <a href="">Metoda Duo Akrylgel</a>
+                        <a href="#zapisz-sie-na-szkolenie" data-scroll="scroll">Zapisz się na szkolenie</a>
                     </li>
                     <li class="line"></li>
                     <li>
-                        <a class="highlight" href="">Kontakt</a>
+                        <a class="highlight" href="kontakt">Kontakt</a>
                     </li>
                 </ul>
             </div>

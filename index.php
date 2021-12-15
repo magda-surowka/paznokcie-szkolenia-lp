@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png"> -->
+    <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png">
 
-    <title>Manicure - szkolenia</title>
+    <title>Moyci || Malwina Chałaj || Szkolenia i warsztaty ze stylizacji paznokci</title>
     <meta name="description" content="">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,58 +46,53 @@
 	alerts_display($_SESSION['elmts_f_alert'], $alert_flag);?>
 
     <!-- ============================== SECTION-WELCOME ============================== -->
-
     <section class="section-welcome">
         <div class="section-wrapper">
             <div class="wrapper-inner">
-                <header>
-                    <h1>Profesjonalne
-                        <p>szkolenia manicure</p>
-                        <p>pod okiem wieloletniej Trenerki</p>
-                        <p>Malwiny Chalat</p>
-                    </h1>
-                </header>
-            </div>
-            <div class="wrapper-icons">
                 <img class="img-absolute" src="img/pictures/zdjecie-welcome.png" alt="">
-                <div class="icon">
-                    <div class="icon-image">
-                        <img src="img/icons/heart.svg" alt="">
+                <div class="inner-description">
+                    <header>
+                        <h1>Profesjonalna
+                            <p>stylizacja paznokci</p>
+                            <p>pod okiem Instruktorki</p>
+                            <p>Malwiny Chałat</p>
+                        </h1>
+                    </header>
+                    <div class="wrapper-icons">
+                        <div class="icon">
+                            <div class="icon-image">
+                                <img src="img/icons/heart.svg" alt="">
+                            </div>
+                            Sprawdzone metody nauczania
+                        </div>
+                        <div class="icon">
+                            <div class="icon-image">
+                                <img src="img/icons/heart.svg" alt="">
+                            </div>
+                            Aktualna wiedza
+                        </div>
+                        <div class="icon">
+                            <div class="icon-image">
+                                <img src="img/icons/heart.svg" alt="">
+                            </div>
+                            Na bieżąco z trendami
+                        </div>
                     </div>
-                    Sprawdzone metody nauczania
                 </div>
-                <div class="icon">
-                    <div class="icon-image">
-                        <img src="img/icons/heart.svg" alt="">
-                    </div>
-                    Aktualna wiedza
-                </div>
-                <div class="icon">
-                    <div class="icon-image">
-                        <img src="img/icons/heart.svg" alt="">
-                    </div>
-                    Na bieżąco z trendami
-                </div>
-                <div class="icon">
-                    <div class="icon-image">
-                        <img src="img/icons/heart.svg" alt="">
-                    </div>
-                    100% satysfakcji
-                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- ============================== SECTION-ABOUT ============================== -->
-
-    <section class="section-about">
+    <!-- ============================== SECTION-CTA ============================== -->
+    <section class="section-cta">
         <div class="section-wrapper">
-            <div class="about-inner">
-                <img src="img/pictures/1000_F_224302931_8eMq4kZ3II640pvExig1bhtyDlrmuNct.png" alt=""
-                    class="about-image">
+            <div class="cta-inner">
+                <img src="img/pictures/1000_F_224302931_8eMq4kZ3II640pvExig1bhtyDlrmuNct.png" alt="" class="cta-image"
+                    data-top="transform: translateX(40px);" data-bottom="transform: translateX(-40px);">
                 <header>
-                    <h2>Chcesz tworzyć arcydzieła na paznokciach Klientek?
-                        <p>zapisz się na <strong>szkolenie!</strong> </p>
+                    <h2>Chcesz tworzyć <strong>arcydzieła</strong> na paznokciach Klientek?
+                        <p>zapisz się na szkolenie!</p>
                     </h2>
                 </header>
                 <div class="inner-description">
@@ -114,6 +109,306 @@
                         reprehenderit sequi odit dolorum blanditiis totam sint, quos earum placeat deleniti dolor
                         adipisci
                         explicabo.</p>
+                    <a href="#oferta-lista" class="btn btn-color" data-scroll="scroll">Sprawdź aktualne szkolenia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== SECTION-ABOUT ============================== -->
+    <section class="section-about" id="o-mnie">
+        <div class="section-wrapper">
+            <span class="text-absolute">Moyci</span>
+            <header>
+                <h2>Malwina Chałat<p>Mistrzyni świata w stylizacji paznokci</p>
+                </h2>
+            </header>
+            <div class="about-inner">
+                <div class="inner-element">
+                    <header>
+                        <h3>Dołącz do grupy zawodowych stylistek paznokci</h3>
+                        <p>to najlepsza inwestycja w przyszłość!</p>
+                    </header>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi impedit eligendi aliquam!
+                        Quod libero sunt molestias voluptatum nisi voluptates.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam labore ipsum
+                        placeat ratione aliquam aliquid, eius error accusantium sit neque vel architecto voluptates
+                        optio quis suscipit voluptatibus nobis illo?</p>
+                </div>
+                <div class="inner-element" data-top="transform: translateY(-40px);"
+                    data-bottom="transform: translateY(40px);">
+                    <img src="img/pictures/zdjecie-about.png" alt="">
+                </div>
+                <div class="inner-element">
+                    <a href="#trenerki" class="btn btn-default" data-scroll="scroll">Poznaj <br> <strong>nasze
+                            Trenerki</strong> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== SECTION-OFFER-HEADER============================== -->
+    <section class="section-offer-header" id="oferta">
+        <div class="section-wrapper">
+            <header>
+                <h2>Oferta szkoleń</h2>
+                <p>dołącz do grona zadowolonych kursantek</p>
+            </header>
+            <div class="offer-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque non ad eos voluptate odio saepe
+                    deserunt
+                    eligendi! Libero voluptatum similique veritatis repudiandae culpa! Quam magnam dolorem illo, maxime
+                    deserunt cumque.</p>
+            </div>
+            <img src="img/pictures/AdobeStock_105170168_Preview.png" alt="" class="img-absolute"
+                data-top="transform: translateY(-40px);" data-bottom="transform: translateY(40px);">
+            <div class="color-element">
+                <p>Skorzystaj z systemu ratalnego MediRaty</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== SECTION-OFFER============================== -->
+    <section class="section-offer" id="oferta-lista">
+        <div class="section-wrapper">
+            <div class="offer-content">
+                <ul class="offer-list">
+                    <li class="heading">Szkolenia</li>
+                    <li>Szkolenie COMPLEX</li>
+                    <li>Szkolenie maraton ćwiczeniowy </li>
+                    <li>Szkolenie perfekcyjny manicure MASTER</li>
+                    <li>NAILS CAMP Dzień Kobiet</li>
+                    <li>Szkolenie Podstawa żelowa Migdał /kwadrat </li>
+                    <li>Manicure hybrydowy BASIC</li>
+                    <li>Szkolenie Tipsy come back!</li>
+                    <li>Szkolenie 5 kształtów salonowych </li>
+                    <li>Szkolenie Idealna ballerina </li>
+                    <li>Szkolenie Perfekcyjny migdał</li>
+                    <li>Ostra jak SZTYLET</li>
+                </ul>
+                <ul class="offer-list">
+                    <li class="heading">Warsztaty</li>
+                    <li>Warsztaty perfekcyjna forma </li>
+                    <li>Warsztaty Naklejki stempelki</li>
+                    <li>Warsztaty Idealny frencz, idealny babyboomer</li>
+                    <li>Warsztaty wiosenne zdobienia mix media</li>
+                    <li>Warsztaty kwiaty akwarelowe</li>
+                </ul>
+                <ul class="offer-list">
+                    <li class="heading">Szkoły</li>
+                    <li>Półroczna szkoła stylizacji paznokci</li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-default btn-calendar" id="offer-calendar-button">
+                Sprawdź <strong>
+                    terminarz i ceny</strong>
+            </button>
+        </div>
+    </section>
+
+    <div class="modal-service-wrapper">
+        <div class="modal-service">
+            <div class="service-inner">
+                <button type="button" class="service-button" id="offer-calendar-button-close">
+                    <span class="button-bar"></span>
+                    <span class="button-bar"></span>
+                </button>
+                <div class="service-content">
+                    <ul class="offer-list">
+                        <li class="heading">Styczeń 2022</li>
+                        <li>
+                            <strong>3 styczeń</strong> warsztaty perfekcyjna forma (16.00-19.00) <p>koszt 200 zł
+                                (grupa
+                                max 12 os)</p>
+                        </li>
+                        <li><strong> 5-9 stycznia</strong> szkolenie COMPLEX (8.30-16.30) <p>koszt 2500 zł - (grupa
+                                max 6
+                                os) brak miejsc</p>
+                        </li>
+                        <li><strong>11-14 stycznia</strong> szkolenie maraton ćwiczeniowy (8.30-16.30) <p>koszt 2500
+                                zł
+                                (grupa max 4 os) brak
+                                miejsc</p>
+                        </li>
+                        <li><strong>19 styczeń </strong> szkolenie perfekcyjny manicure MASTER (8.00- 16.00) grupa max 6
+                            os <p>koszt 800 zł</p>
+                        </li>
+                        <li><strong>24-28 styczeń</strong> szkolenie COMPLEX (15.00-21.00) <p>koszt 2500zł - (grupa
+                                max
+                                6 os) brak miejsc</p>
+                        </li>
+                        <li><strong>29-30 styczeń </strong> 1 zjazd szkoły półrocznej stylizacji paznokci(9-15) <p>
+                                koszt
+                                900 zł </p>
+                        </li>
+                    </ul>
+                    <ul class="offer-list">
+                        <li class="heading">LUTY 2022</li>
+                        <li><strong>14-18 luty</strong> szkolenie COMPLEX (15.00-21.00) <p>koszt 2500zł - (grupa max
+                                6 os)</p>
+                        </li>
+                        <li><strong>15 luty</strong> warsztaty Naklejki stempelki (9.00-15) <p>koszt 500 zł (grupa
+                                max 12
+                                os)</p>
+                        </li>
+                        <li><strong>17 luty</strong> warsztaty Idealny frencz, idealny babyboomer (9-15) <p>koszt 600
+                                zł
+                                grupa max 6 os</p>
+                        </li>
+                        <li><strong>22-25 luty</strong> szkolenie Maraton ćwiczeniow (8.30-16.30) <p> koszt 2500
+                                (grupa max
+                                4 os) </p>
+                        </li>
+                        <li><strong>26-27 luty </strong> 2 zjazd szkoły półrocznej stylizacji paznokci(9-15) <p>koszt
+                                900
+                                zł </p>
+                        </li>
+                    </ul>
+                    <ul class="offer-list">
+                        <li class="heading">MARZEC 2022</li>
+                        <li><strong>4-6 marca</strong> NAILS CAMP Dzień Kobiet (Kołobrzeg LEDA SPA) <p>Koszt 1200zł
+                                (max 12
+                                os)</p>
+                        </li>
+                        <li><strong> 9-10 marzec</strong> szkolenie Podstawa żelowa Migdał / kwadrat <p>koszt 1200
+                                (grupa
+                                max 6 os)</p>
+                        </li>
+                        os)/p> </li>
+                        <li><strong>15 marzec</strong> (9-15.00) szkolenie Manicure hybrydowy BASIC <p></p>
+                        </li>
+                        <li><strong>19 marca</strong> (9-15) Szkolenie Tipsy come back! <p>koszt 600 zł (grupa max 6
+                                os)</p>
+                        </li>
+                        <li><strong>20 marca</strong>(9-17) warsztaty wiosenne zdobienia mix media <p>koszt 400 zł (
+                                grupa max 12 os)</p>
+                        </li>
+                        <li><strong>24 marca</strong> (9-17) szkolenie 5 kształtów salonowych <p>koszt 800 zł (grupa
+                                max 6 os)</p>
+                        </li>
+                        <li><strong>25 marca</strong> (9-15) Szkolenie Idealna ballerina <p>koszt 600zł grupa max 6
+                                os</p>
+                        </li>
+                        <li><strong> 26-27 marca</strong> (9-15) 3 zjazd szkoły półrocznej <p>koszt 900 zł (grupa max
+                                6 os)</p>
+                        </li>
+                    </ul>
+                    <ul class="offer-list">
+                        <li class="heading">KWIECIEŃ 2022</li>
+                        <li>4-8 szkolenie COMPLEX (15.00-21.00)) koszt 2500zł - (grupa max 6 os)
+                        </li>
+                        <li>4 kwietnie 8.30-14.30 Szkolenie Perfekcyjny migdał (koszt 600zł) grupa max 6 os</li>
+                        <li>6 kwietnia 8.30 - 14.30 Szkolenie Tipsy Come Back (koszt 600zł) grupa max 6 os </li>
+                        <li>8 kwietnia 8.30 - 14.30 warsztaty kwiaty akwarelowe (koszt 400 zł) grupa max 12 os</li>
+                        <li>23-24 (9.00-15.00) 4 zjazd szkoły półrocznej koszt 900 zł (grupa max 6 os)</li>
+                        <li>23 kwietnia 15-30 -21.30 Ostra jak SZTYLET koszt 800 zł (grupa max 6 os)</li>
+                        <li>24 kwietnia 15.30-21.30 szkolenie Manicure hybrydowy BASIC 450 zł (grupa max 6 os)</li>
+                    </ul>
+                    <ul class="offer-list">
+                        <li class="heading">MAJ 2022</li>
+                        <li>9-12 maja 15.00- 21.00 szkolenie maraton ćwiczeniowy koszt 2500 (grupa max 4 os) </li>
+                        <li>9 maj 8.30 - 14.30 Szkolenie Idealna ballerina (koszt 600zł) grupa max 6 os</li>
+                        <li>10 maj 8.30 - 14.30 Szkolenie perfekcyjny migdał (koszt 600zł) grupa max 6 os
+                        </li>
+                        <li>12 maj 8.30 - 14.30 Szkolenie Tipsy Come Back (koszt 600zł) grupa max 6 os
+                        </li>
+                        <li>28-29 9.00-15.00 - 5 zjazd szkoły półrocznej koszt 900 zł (grupa max 6 os)
+                        </li>
+                        <li>28 - 15.30 -21.30 warsztaty kwiaty akwarelowe (koszt 400 zł) grupa max 12 os
+                        </li>
+                        <li>29. 15.30 - 21.30 warsztaty MIX MEDIA SUMMER (koszt 400 zł) grupa max 12 os
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================== SECTION-TRAINERS ============================== -->
+    <section class="section-trainers" id="trenerki">
+        <div class="section-wrapper">
+            <div class="trainers-content">
+                <header>
+                    <h2> Nasze <strong>trenerki</strong></h2>
+                </header>
+                <div class="trainer" data-top="transform: translateY(-30px);"
+                    data-bottom="transform: translateY(30px);">
+                    <h2>Imię i nazwisko
+                        <span>stylistka paznokci</span>
+                    </h2>
+                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                </div>
+                <div class="trainer" data-top="transform: translateY(30px);"
+                    data-bottom="transform: translateY(-30px);">
+                    <h2>Imię i nazwisko
+                        <span>stylistka paznokci</span>
+                    </h2>
+                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                </div>
+                <div class="trainer" data-top="transform: translateY(-30px);"
+                    data-bottom="transform: translateY(30px);">
+                    <h2>Imię i nazwisko
+                        <span>stylistka paznokci</span>
+                    </h2>
+                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <span class="text-absolute">Moyci</span>
+    </section>
+
+    <!-- ============================== SECTION-FAQ ============================== -->
+    <section class="section-faq" id="faq">
+        <div class="section-wrapper">
+            <header>
+                <h2>FAQ</h2>
+                <p>czyli najczęściej zadawane pytania</p>
+            </header>
+            <div class="accordion" id="accordion">
+                <div class="accordion-item">
+                    <div class="item-header" id="heading-1">
+                        <button class="" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true"
+                            aria-controls="collapse-1">
+                            <span>Jak mogę zapisać się na szkolenie?</span>
+                        </button>
+                    </div>
+                    <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#accordion">
+                        <div class="item-description">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ipsa corrupti
+                                soluta ducimus magni eveniet. Soluta, veniam? Ad tempora nihil non eum. Mollitia est
+                                consequuntur similique ex et velit quod!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="item-header" id="heading-2">
+                        <button class="collapsed" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false"
+                            aria-controls="collapse-2">
+                            <span>Czy po szkoleniu dostanę certyfikat?</span>
+                        </button>
+                    </div>
+                    <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordion">
+                        <div class="item-description">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ipsa corrupti
+                                soluta ducimus magni eveniet. Soluta, veniam? Ad tempora nihil non eum. Mollitia est
+                                consequuntur similique ex et velit quod!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="item-header" id="heading-3">
+                        <button class="collapsed" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false"
+                            aria-controls="collapse-3">
+                            <span>W jaki sposób należy dokonać opłaty za szkolenie?</span>
+                        </button>
+                    </div>
+                    <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordion">
+                        <div class="item-description">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus ipsa corrupti
+                                soluta ducimus magni eveniet. Soluta, veniam? Ad tempora nihil non eum. Mollitia est
+                                consequuntur similique ex et velit quod!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

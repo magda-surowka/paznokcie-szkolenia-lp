@@ -10,8 +10,8 @@ $(document).ready(function () {
   });
 
   $("#nav-button-close").click(function () {
+      $(".body-wrapper").removeClass("active");
     $(".flexbox-nav-wrapper").removeClass("active");
-    $(".body-wrapper").removeClass("active");
     $(".flexbox-nav").removeClass("active");
   });
 
@@ -24,6 +24,12 @@ $(document).ready(function () {
     $(".flexbox-nav-wrapper").toggleClass("active");
     $("body").removeClass("no-scroll");
     $(".flexbox-nav").toggleClass("active");
+  }
+
+  function toggleOfferButtonCalendar() {
+    $(".modal-service-wrapper").toggleClass("active");
+    $("body").removeClass("no-scroll");
+    $(".modal-service").toggleClass("active");
   }
 
   $("#alertDismiss").click(function () {
@@ -39,6 +45,11 @@ $(document).ready(function () {
       if ($(".flexbox-nav-wrapper").hasClass("active")) {
         toggleBurgerMenu();
       }
+
+      if ($(".modal-service-wrapper").hasClass("active")) {
+        toggleOfferButtonCalendar();
+      }
+
     }
   });
 
@@ -48,6 +59,20 @@ $(document).ready(function () {
       $("body").removeClass("no-scroll");
     }, 8000);
   }
+
+  // modal
+
+  $("#offer-calendar-button").click(function () {
+      $(".modal-service-wrapper").addClass("active");
+      $(".modal-service").addClass("active");
+      $("body").addClass("no-scroll");
+  });
+
+  $("#offer-calendar-button-close").click(function () {
+      $(".modal-service-wrapper").removeClass("active");
+      $(".modal-service").removeClass("active");
+      $("body").removeClass("no-scroll");
+  });
 
   // sticky nav
 
@@ -59,6 +84,21 @@ $(document).ready(function () {
       $("nav.section-header").removeClass("scrolled");
     }
   });
+
+    // smooth scroll
+
+    $('*[data-scroll="scroll"]').click(function () {
+        $(".flexbox-nav-wrapper").removeClass("active");
+        $(".flexbox-nav").removeClass("active");
+        $("body").removeClass("no-scroll");
+    
+        $("html, body").animate(
+          {
+            scrollTop: $($(this).attr("href")).offset().top,
+          },
+          900
+        );
+      });
 
   // -------------------------- //
 });
