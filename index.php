@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png">
 
-    <title>Moyci || Malwina Chałaj || Szkolenia i warsztaty ze stylizacji paznokci</title>
+    <title>Moyci Malwina Chałaj | Szkolenia i warsztaty ze stylizacji paznokci</title>
     <meta name="description" content="">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,9 @@
     <section class="section-welcome">
         <div class="section-wrapper">
             <div class="wrapper-inner">
-                <img class="img-absolute" src="img/pictures/zdjecie-welcome.png" alt="">
+                <div class="inner-image">
+                    <img class="img-absolute" src="img/pictures/zdjecie-welcome.png" alt="">
+                </div>
                 <div class="inner-description">
                     <header>
                         <h1>Profesjonalna
@@ -161,7 +163,7 @@
                     deserunt cumque.</p>
             </div>
             <img src="img/pictures/AdobeStock_105170168_Preview.png" alt="" class="img-absolute"
-                data-top="transform: translateY(-40px);" data-bottom="transform: translateY(40px);">
+                data-top="transform: translateY(-30px);" data-bottom="transform: translateY(30px);">
             <div class="color-element">
                 <p>Skorzystaj z systemu ratalnego MediRaty</p>
             </div>
@@ -217,51 +219,65 @@
                     <ul class="offer-list">
                         <li class="heading">Styczeń 2022</li>
                         <li>
-                            <strong>3 styczeń</strong> warsztaty perfekcyjna forma (16.00-19.00) <p>koszt 200 zł
+                            <strong>3 styczeń 16.00 - 19.00</strong> warsztaty perfekcyjna forma <p>koszt 200 zł
                                 (grupa
                                 max 12 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong> 5-9 stycznia</strong> szkolenie COMPLEX (8.30-16.30) <p>koszt 2500 zł - (grupa
+                        <li><strong> 5-9 stycznia 8.30 - 16.30</strong> szkolenie COMPLEX <p>koszt 2500 zł - (grupa
                                 max 6
                                 os) brak miejsc</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>11-14 stycznia</strong> szkolenie maraton ćwiczeniowy (8.30-16.30) <p>koszt 2500
+                        <li><strong>11-14 stycznia 8.30 - 16.30</strong> szkolenie maraton ćwiczeniowy <p>koszt 2500
                                 zł
                                 (grupa max 4 os) brak
                                 miejsc</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>19 styczeń </strong> szkolenie perfekcyjny manicure MASTER (8.00- 16.00) grupa max 6
-                            os <p>koszt 800 zł</p>
+                        <li><strong>19 styczeń 8.00 - 16.00</strong> szkolenie perfekcyjny manicure MASTER <p>koszt 800
+                                zł, grupa max 6
+                                os </p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>24-28 styczeń</strong> szkolenie COMPLEX (15.00-21.00) <p>koszt 2500zł - (grupa
+                        <li><strong>24-28 styczeń 15.00 - 21.00</strong> szkolenie COMPLEX <p>koszt 2500zł - (grupa
                                 max
                                 6 os) brak miejsc</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>29-30 styczeń </strong> 1 zjazd szkoły półrocznej stylizacji paznokci(9-15) <p>
+                        <li><strong>29-30 styczeń 9.00-15.00</strong> 1 zjazd szkoły półrocznej stylizacji paznokci <p>
                                 koszt
                                 900 zł </p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
                     </ul>
                     <ul class="offer-list">
                         <li class="heading">LUTY 2022</li>
-                        <li><strong>14-18 luty</strong> szkolenie COMPLEX (15.00-21.00) <p>koszt 2500zł - (grupa max
+                        <li><strong>14-18 luty 15.00 - 21.00</strong> szkolenie COMPLEX <p>koszt 2500zł - (grupa max
                                 6 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>15 luty</strong> warsztaty Naklejki stempelki (9.00-15) <p>koszt 500 zł (grupa
+                        <li><strong>15 luty 9.00- 15.00</strong> warsztaty Naklejki stempelki <p>koszt 500 zł (grupa
                                 max 12
                                 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>17 luty</strong> warsztaty Idealny frencz, idealny babyboomer (9-15) <p>koszt 600
+                        <li><strong>17 luty 9.00 - 15.00</strong> warsztaty Idealny frencz, idealny babyboomer <p>koszt
+                                600
                                 zł
                                 grupa max 6 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>22-25 luty</strong> szkolenie Maraton ćwiczeniow (8.30-16.30) <p> koszt 2500
+                        <li><strong>22-25 luty 8.30 - 16.30 </strong> szkolenie Maraton ćwiczeniow<p> koszt 2500
                                 (grupa max
                                 4 os) </p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li><strong>26-27 luty </strong> 2 zjazd szkoły półrocznej stylizacji paznokci(9-15) <p>koszt
+                        <li><strong>26-27 luty 9.00 - 15.00</strong> 2 zjazd szkoły półrocznej stylizacji paznokci <p>
+                                koszt
                                 900
                                 zł </p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
                     </ul>
                     <ul class="offer-list">
@@ -269,56 +285,117 @@
                         <li><strong>4-6 marca</strong> NAILS CAMP Dzień Kobiet (Kołobrzeg LEDA SPA) <p>Koszt 1200zł
                                 (max 12
                                 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
                         <li><strong> 9-10 marzec</strong> szkolenie Podstawa żelowa Migdał / kwadrat <p>koszt 1200
                                 (grupa
                                 max 6 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        os)/p> </li>
-                        <li><strong>15 marzec</strong> (9-15.00) szkolenie Manicure hybrydowy BASIC <p></p>
-                        </li>
-                        <li><strong>19 marca</strong> (9-15) Szkolenie Tipsy come back! <p>koszt 600 zł (grupa max 6
-                                os)</p>
-                        </li>
-                        <li><strong>20 marca</strong>(9-17) warsztaty wiosenne zdobienia mix media <p>koszt 400 zł (
-                                grupa max 12 os)</p>
-                        </li>
-                        <li><strong>24 marca</strong> (9-17) szkolenie 5 kształtów salonowych <p>koszt 800 zł (grupa
-                                max 6 os)</p>
-                        </li>
-                        <li><strong>25 marca</strong> (9-15) Szkolenie Idealna ballerina <p>koszt 600zł grupa max 6
-                                os</p>
-                        </li>
-                        <li><strong> 26-27 marca</strong> (9-15) 3 zjazd szkoły półrocznej <p>koszt 900 zł (grupa max
+                        <li><strong>15 marzec 9.00 - 15.00</strong> szkolenie Manicure hybrydowy BASIC <p>450 zł (grupa
+                                max
                                 6 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>19 marca 9.00 - 15.00</strong> Szkolenie Tipsy come back! <p>koszt 600 zł (grupa max
+                                6
+                                os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>20 marca 9.00 - 17.00</strong> warsztaty wiosenne zdobienia mix media <p>koszt 400
+                                zł (
+                                grupa max 12 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>24 marca 9.00 - 17.00)</strong> szkolenie 5 kształtów salonowych <p>koszt 800 zł
+                                (grupa
+                                max 6 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>25 marca 9.00 - 15.00</strong> Szkolenie Idealna ballerina <p>koszt 600zł grupa max
+                                6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong> 26-27 marca 9.00 - 15.00)</strong> 3 zjazd szkoły półrocznej <p>koszt 900 zł (grupa
+                                max
+                                6 os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
                     </ul>
                     <ul class="offer-list">
                         <li class="heading">KWIECIEŃ 2022</li>
-                        <li>4-8 szkolenie COMPLEX (15.00-21.00)) koszt 2500zł - (grupa max 6 os)
+                        <li><strong>4-8 kwietnia, 15.00-21.00</strong> szkolenie COMPLEX <p>koszt 2500zł - (grupa max 6
+                                os)</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li>4 kwietnie 8.30-14.30 Szkolenie Perfekcyjny migdał (koszt 600zł) grupa max 6 os</li>
-                        <li>6 kwietnia 8.30 - 14.30 Szkolenie Tipsy Come Back (koszt 600zł) grupa max 6 os </li>
-                        <li>8 kwietnia 8.30 - 14.30 warsztaty kwiaty akwarelowe (koszt 400 zł) grupa max 12 os</li>
-                        <li>23-24 (9.00-15.00) 4 zjazd szkoły półrocznej koszt 900 zł (grupa max 6 os)</li>
-                        <li>23 kwietnia 15-30 -21.30 Ostra jak SZTYLET koszt 800 zł (grupa max 6 os)</li>
-                        <li>24 kwietnia 15.30-21.30 szkolenie Manicure hybrydowy BASIC 450 zł (grupa max 6 os)</li>
+                        <li><strong>4 kwietnia, 8.30-14.30 </strong> Szkolenie Perfekcyjny migdał <p>koszt 600zł, grupa
+                                max
+                                6 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>6 kwietnia, 8.30 - 14.30</strong> Szkolenie Tipsy Come Back <p>koszt 600zł grupa
+                                max
+                                6
+                                os </p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>8 kwietnia, 8.30 - 14.30</strong> warsztaty kwiaty akwarelowe <p>koszt 400 zł,
+                                grupa
+                                max 12 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>23-24 kwietnia, 9.00-15.00</strong> 4 zjazd szkoły półrocznej <p>koszt 900 zł, grupa
+                                max 6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>23 kwietnia, 15.30 - 21.30</strong> Ostra jak SZTYLET <p>koszt 800 zł, grupa max 6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>24 kwietnia, 15.30-21.30</strong> szkolenie Manicure hybrydowy BASIC <p>koszt 450
+                                zł, grupa
+                                max 6 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
                     </ul>
                     <ul class="offer-list">
                         <li class="heading">MAJ 2022</li>
-                        <li>9-12 maja 15.00- 21.00 szkolenie maraton ćwiczeniowy koszt 2500 (grupa max 4 os) </li>
-                        <li>9 maj 8.30 - 14.30 Szkolenie Idealna ballerina (koszt 600zł) grupa max 6 os</li>
-                        <li>10 maj 8.30 - 14.30 Szkolenie perfekcyjny migdał (koszt 600zł) grupa max 6 os
+                        <li><strong>9-12 maja, 15.00- 21.00</strong> szkolenie maraton ćwiczeniowy <p>koszt 2500, grupa
+                                max
+                                4 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li>12 maj 8.30 - 14.30 Szkolenie Tipsy Come Back (koszt 600zł) grupa max 6 os
+                        <li><strong>9 maj 8.30 - 14.30</strong> Szkolenie Idealna ballerina <p>koszt 600zł, grupa max 6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li>28-29 9.00-15.00 - 5 zjazd szkoły półrocznej koszt 900 zł (grupa max 6 os)
+                        <li><strong>10 maj 8.30 - 14.30</strong> Szkolenie perfekcyjny migdał <p>koszt 600zł, grupa max
+                                6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li>28 - 15.30 -21.30 warsztaty kwiaty akwarelowe (koszt 400 zł) grupa max 12 os
+                        <li><strong>12 maj 8.30 - 14.30</strong> Szkolenie Tipsy Come Back <p>koszt 600zł, grupa max 6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
-                        <li>29. 15.30 - 21.30 warsztaty MIX MEDIA SUMMER (koszt 400 zł) grupa max 12 os
+                        <li><strong>28-29 maj 9.00-15.00</strong> 5 zjazd szkoły półrocznej <p>koszt 900 zł, grupa max 6
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>28 maj 15.30 - 21.30</strong> warsztaty kwiaty akwarelowe <p>koszt 400 zł, grupa
+                                max
+                                12
+                                os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
+                        </li>
+                        <li><strong>29 maja 15.30 - 21.30</strong> warsztaty MIX MEDIA SUMMER <p>koszt 400 zł, grupa
+                                max 12 os</p>
+                            <a href="#formularz-zapisu" class="btn btn-color" data-scroll="scroll">Zapisz się</a>
                         </li>
                     </ul>
+                    <div class="hidden-element"></div>
                 </div>
             </div>
         </div>
@@ -331,22 +408,22 @@
                 <header>
                     <h2> Nasze <strong>trenerki</strong></h2>
                 </header>
-                <div class="trainer" data-top="transform: translateY(-30px);"
-                    data-bottom="transform: translateY(30px);">
+                <div class="trainer" data-top="transform: translateY(-40px);"
+                    data-bottom="transform: translateY(40px);">
                     <h2>Imię i nazwisko
                         <span>stylistka paznokci</span>
                     </h2>
                     <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                 </div>
-                <div class="trainer" data-top="transform: translateY(30px);"
-                    data-bottom="transform: translateY(-30px);">
+                <div class="trainer" data-top="transform: translateY(40px);"
+                    data-bottom="transform: translateY(-40px);">
                     <h2>Imię i nazwisko
                         <span>stylistka paznokci</span>
                     </h2>
                     <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                 </div>
-                <div class="trainer" data-top="transform: translateY(-30px);"
-                    data-bottom="transform: translateY(30px);">
+                <div class="trainer" data-top="transform: translateY(-40px);"
+                    data-bottom="transform: translateY(40px);">
                     <h2>Imię i nazwisko
                         <span>stylistka paznokci</span>
                     </h2>
@@ -414,7 +491,6 @@
         </div>
     </section>
 
-
     <script src="js/skrollr.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -426,5 +502,6 @@
         }
     });
     </script>
+
     <?php include "include/section-footer.php"; ?>
     <?php include "include/section-footer-scripts.php"; ?>

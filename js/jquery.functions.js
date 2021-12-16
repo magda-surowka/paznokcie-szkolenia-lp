@@ -90,6 +90,8 @@ $(document).ready(function () {
     $('*[data-scroll="scroll"]').click(function () {
         $(".flexbox-nav-wrapper").removeClass("active");
         $(".flexbox-nav").removeClass("active");
+        $(".modal-service-wrapper").removeClass("active")
+        $(".modal-service").removeClass("active");
         $("body").removeClass("no-scroll");
     
         $("html, body").animate(

@@ -10,6 +10,7 @@
                         <span class="background-default background-default-hover button-bar"></span>
                         <span class="background-default background-default-hover button-bar"></span>
                     </button>
+                    <span class="burger-menu-text">MENU</span>
                 </div>
                 <div class="management-logo opacity">
                     <a href="index">
@@ -74,7 +75,7 @@
                         <a href="#faq" data-scroll="scroll">FAQ</a>
                     </li>
                     <li>
-                        <a href="#zapisz-sie-na-szkolenie" data-scroll="scroll">Zapisz się na szkolenie</a>
+                        <a href="#formularz-zapisu" data-scroll="scroll">Zapisz się na szkolenie</a>
                     </li>
                     <li class="line"></li>
                     <li>
