@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png">
 
-    <title>Moyci Malwina Chałaj | Szkolenia i warsztaty ze stylizacji paznokci</title>
+    <title>Malwina Chałat | Szkolenia i warsztaty ze stylizacji paznokci</title>
     <meta name="description" content="">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,7 +56,7 @@
                     <header>
                         <h1>Profesjonalna
                             <p>stylizacja paznokci</p>
-                            <p>pod okiem Instruktorki</p>
+                            <p>pod okiem Mistrzyni Świata</p>
                             <p>Malwiny Chałat</p>
                         </h1>
                     </header>
@@ -120,7 +120,7 @@
     <!-- ============================== SECTION-ABOUT ============================== -->
     <section class="section-about" id="o-mnie">
         <div class="section-wrapper">
-            <span class="text-absolute">Moyci</span>
+            <span class="text-absolute">M. Chałat</span>
             <header>
                 <h2>Malwina Chałat<p>Mistrzyni świata w stylizacji paznokci</p>
                 </h2>
@@ -431,7 +431,7 @@
                 </div>
             </div>
         </div>
-        <span class="text-absolute">Moyci</span>
+        <span class="text-absolute">M. Chałat</span>
     </section>
 
     <!-- ============================== SECTION-FAQ ============================== -->

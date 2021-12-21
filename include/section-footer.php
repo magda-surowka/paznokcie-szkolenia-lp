@@ -6,9 +6,9 @@
         <div class="footer-wrapper">
             <div class="footer-text">
                 <div class="footer-logo">
-                    <p>Moyci<span>Szkolenia manicure</span></p>
+                    <p>Malwina Chałat<span>Instruktor Stylizacji Paznokci</span></p>
                 </div>
-                <p>Dołącz do grupy zawodowych stylistek paznokci -
+                <p>Dołącz do grupy zawodowych stylistek paznokci - <br>
                     <strong>to najlepsza inwestycja w przyszłość!</strong>
                 </p>
                 <div class="footer-social-media">

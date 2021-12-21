@@ -6,15 +6,17 @@
             <div class="header-management">
                 <div class="management-burger-menu">
                     <button type="button" class="nav-button" id="nav-button">
-                        <span class="background-default background-default-hover button-bar"></span>
-                        <span class="background-default background-default-hover button-bar"></span>
-                        <span class="background-default background-default-hover button-bar"></span>
+                        <div class="nav-button-wrapper">
+                            <span class="background-default background-default-hover button-bar"></span>
+                            <span class="background-default background-default-hover button-bar"></span>
+                            <span class="background-default background-default-hover button-bar"></span>
+                        </div>
+                        <span class="burger-menu-text">MENU</span>
                     </button>
-                    <span class="burger-menu-text">MENU</span>
                 </div>
                 <div class="management-logo opacity">
                     <a href="index">
-                        <p>Moyci<span>Szkolenia manicure</span></p>
+                        <p>Malwina Chałat<span>Instruktor Stylizacji Paznokci</span></p>
                     </a>
                 </div>
                 <div class="management-links">
