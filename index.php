@@ -21,7 +21,7 @@
     <link href="library/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Owl Carousel 2 Styles-->
-    <link href="library/owl.carousel2-2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="library/owl.carousel2-2.3.4/assets/owl.carousel.min.css" rel="stylesheet">sdssdee
     <?php include "include/style.php"; ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -81,7 +81,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

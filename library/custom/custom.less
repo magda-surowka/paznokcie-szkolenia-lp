@@ -1,13 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Cormorant:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap");
+
+@font-face {
+  font-family: "moniqa";
+  src: url("../fonts/MoniqaCondensedHeading.otf") format("otf"),
+    url("../fonts/MoniqaCondensedHeading.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   min-height: 100vh;
   height: 100%;
-  font-family: "Cormorant", serif;
+  font-family: "Manrope", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //   background-color: #f2f2f2;
   background-color: #f8f7f5;
   transition: background-color 350ms;
 
@@ -409,13 +416,14 @@ nav.section-header {
         transform: translateY(10px) translateZ(0);
         color: @color1;
         letter-spacing: 1px;
-        font-size: 70px;
-        line-height: 45px;
-        font-family: "Italianno", cursive;
+        font-size: 32px;
+        line-height: 38px;
+        font-family: "moniqa";
+        text-transform: uppercase;
 
         span {
           display: block;
-          font-size: 12px;
+          font-size: 13px;
           line-height: 14px;
           font-weight: 600;
           letter-spacing: 1.5px;
@@ -423,8 +431,8 @@ nav.section-header {
           text-transform: uppercase;
           transition: opacity 350ms;
           color: #000;
-          border-top: 1px solid rgba(#000, 0.45);
-          padding-top: 5px;
+          border-top: 0.5px solid #000;
+          padding-top: 8px;
         }
       }
 
@@ -448,13 +456,10 @@ nav.section-header {
         margin: 0 10px;
       }
 
-      p {
-        font-size: 20px;
-      }
-
       .burger-menu-text {
         display: inline-block;
         margin-left: 10px;
+        font-size: 14px;
       }
     }
   }
@@ -536,14 +541,14 @@ nav.section-header {
 
         li {
           a {
-            font-size: 20px;
+            font-size: 18px;
             display: inline-block;
-            padding: 5px 0;
+            padding: 8px 0;
             color: #000;
 
             &.highlight {
               font-weight: 700;
-              font-size: 28px;
+              font-size: 24px;
             }
           }
 
@@ -582,31 +587,32 @@ section.section-welcome {
     }
 
     h1 {
-      font-size: 100px;
-      font-weight: 600;
+      font-size: 80px;
       line-height: 1.1;
       letter-spacing: 1.5px;
       margin-bottom: 20px;
+      font-family: "moniqa";
 
       p {
         font-weight: 500;
+        font-family: "Manrope", sans-serif;
 
         &:first-of-type {
-          font-size: 56px;
+          font-size: 18px;
         }
 
         &:nth-of-type(2) {
-          font-size: 24px;
+          font-size: 22px;
           padding-left: 150px;
           margin-top: 30px;
         }
 
         &:nth-of-type(3) {
-          font-size: 48px;
+          font-size: 28px;
           line-height: 50px;
-          padding-left: 260px;
+          padding-left: 265px;
           color: @color1;
-          font-family: "Italianno", cursive;
+          font-family: "moniqa";
         }
       }
     }
@@ -631,7 +637,7 @@ section.section-welcome {
     }
 
     &:after {
-      background: url(../img/pictures/pattern.svg) 60% 0% no-repeat;
+      background: url(../img/pictures/pattern.svg) 50% 0% no-repeat;
       background-size: cover;
       opacity: 0.4;
     }
@@ -658,7 +664,7 @@ section.section-welcome {
       flex-wrap: wrap;
 
       .icon {
-        font-size: 15px;
+        font-size: 13px;
         letter-spacing: 1px;
         color: #000;
         display: flex;
@@ -677,6 +683,7 @@ section.section-welcome {
         }
 
         img {
+          margin-top: 2px;
           width: 20px;
         }
       }
@@ -709,16 +716,19 @@ section.section-cta {
     width: 30%;
 
     h2 {
-      font-size: 60px;
-      line-height: 64px;
+      font-size: 54px;
+      line-height: 1.1;
       font-weight: 600;
+      font-family: "moniqa";
 
       strong {
         color: @color1;
       }
 
       p {
-        font-size: 20px;
+        font-family: "Manrope", sans-serif;
+        margin-top: 10px;
+        font-size: 18px;
       }
     }
   }
@@ -728,8 +738,9 @@ section.section-cta {
   }
 
   p {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 28px;
 
     &:not(:first-of-type) {
       margin-top: 15px;
@@ -747,30 +758,30 @@ section.section-about {
   background-color: #f2f2f2;
 
   .text-absolute {
-    font-family: "Italianno", cursive;
+    font-family: "moniqa";
     position: absolute;
     z-index: 1;
     top: 50%;
     left: 50%;
-    transform: translate(10%, 80%);
-    font-size: 215px;
+    transform: translate(10%, 163%);
+    font-size: 130px;
     color: @color1;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 
   header {
     h2 {
       color: @color1;
-      font-family: "Italianno", cursive;
-      font-size: 100px;
-      line-height: 60px;
+      font-family: "moniqa";
+      font-size: 70px;
+      line-height: 1.1;
       letter-spacing: 1.5px;
 
       p {
-        font-family: "Cormorant", serif;
+        font-family: "Manrope", sans-serif;
         color: #000;
-        font-size: 20px;
-        line-height: 22px;
+        font-weight: 300;
+        font-size: 17px;
       }
     }
   }
@@ -801,12 +812,15 @@ section.section-about {
         text-align: right;
 
         .btn-default {
-          font-size: 100px;
-          line-height: 60px;
+          font-family: "moniqa";
+          font-size: 80px;
+          line-height: 0.5;
+          letter-spacing: 1.5px;
           text-align: right;
 
           strong {
-            font-size: 30px;
+            font-family: "Manrope", sans-serif;
+            font-size: 18px;
             color: @color1;
             font-weight: 600;
             transition: color 350ms;
@@ -826,15 +840,14 @@ section.section-about {
         margin-bottom: 40px;
 
         h3 {
-          font-size: 22px;
+          font-size: 18px;
           line-height: 32px;
-          font-weight: 600;
         }
       }
 
       p {
-        font-weight: 400;
-        font-size: 18px;
+        font-size: 14px;
+        line-height: 28px;
 
         &:not(:first-of-type) {
           margin-top: 15px;
@@ -878,7 +891,7 @@ section.section-offer-header {
     justify-content: center;
     color: #fff;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     padding: 10px;
     text-align: center;
@@ -915,24 +928,25 @@ section.section-offer-header {
 
     h2 {
       font-size: 80px;
-      line-height: 80px;
+      line-height: 1.1;
       letter-spacing: 1.5px;
+      font-family: "moniqa";
     }
 
     p {
       color: @color1;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 22px;
+      font-size: 18px;
       max-width: 100%;
-      letter-spacing: 1.5px;
+      letter-spacing: 1px;
     }
   }
 
   .offer-description {
     max-width: 800px;
     margin: 40px auto 0;
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
   }
 }
 
@@ -953,11 +967,9 @@ section.section-offer {
       list-style-type: none;
 
       li {
-        font-size: 18px;
-
         &:not(.heading) {
           position: relative;
-          font-size: 20px;
+          font-size: 16px;
           padding: 5px 0 5px 30px;
         }
 
@@ -965,7 +977,7 @@ section.section-offer {
           content: "";
           position: absolute;
           top: 15px;
-          left: -5px;
+          left: 0px;
           width: 8px;
           height: 8px;
           border-radius: 100px;
@@ -974,8 +986,9 @@ section.section-offer {
       }
 
       .heading {
-        font-size: 62px;
-        font-family: "Italianno", cursive;
+        font-size: 32px;
+        margin-bottom: 10px;
+        font-family: "moniqa";
 
         &:before {
           display: none;
@@ -988,13 +1001,15 @@ section.section-offer {
     position: absolute;
     right: 10%;
     bottom: 5%;
-    font-size: 100px;
-    line-height: 60px;
+    font-size: 80px;
+    line-height: 1;
     text-align: right;
     letter-spacing: 1.5px;
+    font-family: "moniqa";
 
     strong {
-      font-size: 30px;
+      font-family: "Manrope", sans-serif;
+      font-size: 18px;
       color: @color1;
       font-weight: 600;
       transition: color 350ms;
@@ -1017,7 +1032,7 @@ section.section-trainers {
   background-color: #f2f2f2;
 
   .text-absolute {
-    font-family: "Italianno", cursive;
+    font-family: "moniqa";
     position: absolute;
     z-index: 1;
     top: -19.5%;
@@ -1038,13 +1053,15 @@ section.section-trainers {
       padding-right: 50px;
 
       h2 {
-        font-size: 100px;
-        line-height: 60px;
+        font-size: 80px;
+        line-height: 1.1;
         text-align: right;
         letter-spacing: 1.5px;
+        font-family: "moniqa";
 
         strong {
-          font-size: 30px;
+          font-family: "Manrope", sans-serif;
+          font-size: 18px;
           color: @color1;
           font-weight: 600;
           transition: color 350ms;
@@ -1069,12 +1086,12 @@ section.section-trainers {
       }
 
       h2 {
-        font-size: 22px;
+        font-size: 18px;
         padding: 20px;
 
         span {
           color: @color1;
-          font-size: 17px;
+          font-size: 15px;
           display: block;
         }
       }
@@ -1091,13 +1108,14 @@ section.section-faq {
 
     h2 {
       font-size: 80px;
-      line-height: 80px;
+      line-height: 1.1;
       letter-spacing: 1.5px;
+      font-family: "moniqa";
     }
 
     p {
       color: @color1;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 22px;
       max-width: 100%;
       letter-spacing: 1.5px;
@@ -1131,7 +1149,7 @@ section.section-faq {
           border-radius: 0;
           text-decoration: none;
           color: @color1;
-          font-size: 26px;
+          font-size: 22px;
           outline: none;
           cursor: pointer;
           border: none;
@@ -1157,9 +1175,8 @@ section.section-faq {
         p,
         li {
           font-size: 15px;
-          font-weight: 500;
           color: #000;
-          line-height: 26px;
+          line-height: 28px;
 
           strong {
             font-weight: 700;
@@ -1200,18 +1217,19 @@ section.section-footer {
       margin: 0 auto 0 0;
 
       .footer-logo {
-        color: @color1;
-        letter-spacing: 1px;
-        font-size: 80px;
-        line-height: 50px;
-        font-family: "Italianno", cursive;
-        text-align: center;
+        p {
+          color: @color1;
+          letter-spacing: 1px;
+          font-size: 60px;
+          line-height: 1;
+          font-family: "moniqa";
+          text-align: center;
+        }
 
         span {
           display: block;
           font-size: 14px;
           line-height: 18px;
-          font-weight: 600;
           letter-spacing: 1.5px;
           margin-bottom: 30px;
           color: #000;
@@ -1220,6 +1238,11 @@ section.section-footer {
           padding-top: 5px;
           text-transform: uppercase;
         }
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 24px;
       }
 
       .footer-image {
@@ -1258,7 +1281,7 @@ section.section-footer {
       padding: 30px 0 60px 30px;
 
       h2 {
-        font-size: 42px;
+        font-size: 32px;
         margin-bottom: 20px;
       }
 
@@ -1277,7 +1300,7 @@ section.section-footer {
         label {
           margin: 30px 0 10px 0;
           text-align: left;
-          font-size: 15px;
+          font-size: 14px;
           width: 100%;
           color: #000;
         }
@@ -1324,7 +1347,7 @@ section.section-footer {
         margin-top: 20px;
 
         p {
-          font-size: 15px;
+          font-size: 13px;
         }
       }
 
@@ -1341,7 +1364,7 @@ section.section-footer {
         margin: 10px 0;
 
         p {
-          font-size: 13px;
+          font-size: 11px;
           line-height: 15px;
         }
       }
@@ -1383,7 +1406,7 @@ section.section-footer {
       }
 
       span {
-        font-size: 13px;
+        font-size: 11px;
       }
     }
 
