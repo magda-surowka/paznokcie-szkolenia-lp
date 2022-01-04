@@ -291,7 +291,7 @@
                 </ul>
             </div>
             <a href="#faq" class="btn btn-default" data-scroll="scroll">Sprawdź <strong>
-                    njczęściej zadawane pytania</strong></a>
+                    najczęściej zadawane pytania</strong></a>
         </div>
     </section>
 

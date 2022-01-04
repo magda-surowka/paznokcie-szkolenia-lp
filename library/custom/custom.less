@@ -388,7 +388,7 @@ nav.section-header {
         li {
           a {
             color: #000;
-            font-size: 14px;
+            font-size: 13px;
             letter-spacing: 1px;
             font-weight: 500;
 
@@ -421,7 +421,7 @@ nav.section-header {
         transition: all 0.4s;
         transform: translateZ(0);
         letter-spacing: 1px;
-        font-size: 42px;
+        font-size: 44px;
         line-height: 1;
         font-family: "Great Vibes", cursive;
         background: linear-gradient(@color1, #ffe582);
@@ -439,6 +439,7 @@ nav.section-header {
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           font-family: "Manrope", sans-serif;
+          padding-bottom: 5px;
         }
       }
 
@@ -471,14 +472,14 @@ nav.section-header {
   }
 
   &.scrolled {
-    background: rgba(@color2, 0.6);
+    background: rgba(@color2, 0.7);
 
     .header-management {
       padding: 5px 0;
 
       .management-logo {
         a {
-          transform: translateY(5px) scale(0.85);
+          transform: translateY(10px) scale(0.85);
 
           span {
             opacity: 0;
@@ -668,6 +669,7 @@ section.section-welcome {
       .icon {
         font-size: 13px;
         letter-spacing: 1px;
+        font-weight: 500;
         color: #000;
         display: flex;
         align-items: center;
@@ -793,7 +795,7 @@ section.section-about {
 
       &:nth-of-type(2) {
         background-color: #fff;
-        box-shadow: 0px 20px 40px 1px rgba(#9b9b9b, 0.3);
+        box-shadow: 0px 20px 40px 1px rgba(#9b9b9b, 0.4);
       }
 
       &:nth-of-type(3) {
@@ -806,7 +808,7 @@ section.section-about {
           text-align: right;
 
           strong {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 500;
             color: @color1;
             transition: color 350ms;
@@ -1000,7 +1002,7 @@ section.section-offer {
 
     strong {
       font-family: "Manrope", sans-serif;
-      font-size: 16px;
+      font-size: 18px;
       color: @color1;
       font-weight: 500;
       transition: color 350ms;
@@ -1020,7 +1022,7 @@ section.section-offer {
 section.section-trainers,
 section.section-testimonials {
   position: relative;
-  padding-top: 120px;
+  padding-top: 100px;
   background-color: #f2f2f2;
 
   .img-absolute {
@@ -1036,7 +1038,7 @@ section.section-testimonials {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
 
     header {
       h2 {
@@ -1047,7 +1049,7 @@ section.section-testimonials {
 
         strong {
           font-family: "Manrope", sans-serif;
-          font-size: 16px;
+          font-size: 18px;
           color: @color1;
           font-weight: 500;
           transition: color 350ms;
@@ -1125,7 +1127,7 @@ section.section-testimonials {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      box-shadow: 0px 20px 40px 1px rgba(#9b9b9b, 0.15);
+      box-shadow: 0px 10px 20px 1px rgba(#9b9b9b, 0.3);
 
       img {
         width: 100%;
@@ -1180,11 +1182,16 @@ section.section-testimonials {
 
         .testimonial {
           justify-content: flex-start;
+          box-shadow: none;
         }
 
         &.center {
           opacity: 1;
-          transform: scale(1.1);
+          transform: scale(1.15);
+
+          .testimonial {
+            box-shadow: 0px 5px 30px 1px rgba(#9b9b9b, 0.3);
+          }
 
           img {
             &.img-absolute {
@@ -1229,7 +1236,7 @@ section.section-faq {
     position: relative;
     margin-top: 60px;
     padding: 70px;
-    box-shadow: 0px 10px 40px 1px rgba(#9b9b9b, 0.25);
+    box-shadow: 0px 10px 40px 1px rgba(#9b9b9b, 0.15);
 
     .accordion-item {
       text-align: center;
