@@ -17,7 +17,7 @@ var config = {
   cssIn: "./css/**/*.css",
   cssOut: "./css/",
   cssOutName: "style.css",
-  localhostIn: "http://localhost/paznokcie-szkolenia-lp",
+  localhostIn: "http://localhost/m-chalat",
 };
 
 gulp.task("reload", function () {

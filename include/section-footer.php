@@ -6,12 +6,13 @@
         <div class="footer-wrapper">
             <div class="footer-text">
                 <div class="footer-logo">
-                    <p>Malwina Chałat<span>Instruktor Stylizacji Paznokci</span></p>
+                    Malwina Chałat<span>Instruktor Stylizacji Paznokci</span>
                 </div>
                 <p>Dołącz do grupy zawodowych stylistek paznokci - <br>
                     <strong>to najlepsza inwestycja w przyszłość!</strong>
                 </p>
                 <div class="footer-social-media">
+                    <span>social media: </span>
                     <a href="">
                         <svg class="fill-default-hover" viewBox="-110 1 511 511.99996"
                             xmlns="http://www.w3.org/2000/svg">
@@ -65,21 +66,23 @@
                                 <input type="text" name="input_phone" value="">
                             </div>
                         </div>
-                        <div class="form-element col-lg-6">
-                            <label>Wybierz szkolenie *</label>
+                        <div class="form-element col-lg-8">
+                            <label>Szkolenie*</label>
                             <div class="input-wrapper">
                                 <select name="" required="required">
-                                    <option value="">Szkolenie COMPLEX</option>
-                                    <option value="">Szkolenie perfekcyjny manicure MASTER</option>
-                                    <option value="">Manicure hybrydowy BASIC</option>
-                                    <option value="">Szkolenie Idealna ballerina</option>
+                                    <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
+                                    <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
+                                    <option value="">Szkolenie COMPLEX - trenerka Anna Nowak</option>
+                                    <option value="">Szkolenie perfekcyjny manicure MASTER - trenerka Kasia Jaskółska
+                                    </option>
+                                    <option value="">Manicure hybrydowy BASIC - trenerka Ola Wasiak</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="form-element col-lg-6">
-                            <label>Wybierz termin *</label>
+                        <div class="form-element col-lg-4">
+                            <label>Termin *</label>
                             <div class="input-wrapper">
-                                <input type="date" name="input_date" value="" min="2021-01-01" max="2021-12-31"
+                                <input type="date" name="input_date" value="" min="2022-01-01" max="2022-12-31"
                                     required="required">
                             </div>
                         </div>
@@ -112,6 +115,24 @@
                         </button>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <div class="credits-copyright">
+                <ul class="list-unstyled credits-links">
+                    <li>
+                        <a href="">Polityka Informacyjna RODO</a>
+                    </li>
+                    <li>
+                        <div class="divider"></div>
+                    </li>
+                    <li>
+                        <a href="">Polityka cookies</a>
+                    </li>
+                </ul>
+                <p>Copyright <?php echo date("Y"); ?> &copy; Designed by <a class="color-default-hover" target="_blank"
+                        href="https://www.webemo.pl/">Webemo</a>, work&nbsp;with&nbsp;<a class="color-default-hover"
+                        href="<?php echo __URL__;?>elmts">Elements</a></p>
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@
     <link href="library/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Owl Carousel 2 Styles-->
-    <link href="library/owl.carousel2-2.3.4/assets/owl.carousel.min.css" rel="stylesheet">sdssdee
+    <link href="library/owl.carousel2-2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
     <?php include "include/style.php"; ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -54,11 +54,10 @@
                 </div>
                 <div class="inner-description">
                     <header>
-                        <h1>Profesjonalna
-                            <p>stylizacja paznokci</p>
-                            <p>pod okiem Mistrzyni Świata</p>
-                            <p>Malwiny Chałat</p>
-                        </h1>
+                        <p>Profesjonalna</p>
+                        <p>stylizacja paznokci</p>
+                        <p>pod okiem Mistrzyni Świata</p>
+                        <p>Malwiny Chałat</p>
                     </header>
                     <div class="wrapper-icons">
                         <div class="icon">
@@ -110,7 +109,7 @@
                         reprehenderit sequi odit dolorum blanditiis totam sint, quos earum placeat deleniti dolor
                         adipisci
                         explicabo.</p>
-                    <a href="#oferta-lista" class="btn btn-color" data-scroll="scroll">Sprawdź aktualne szkolenia</a>
+                    <a href="#oferta" class="btn btn-color" data-scroll="scroll">Sprawdź aktualne szkolenia</a>
                 </div>
             </div>
         </div>
@@ -119,17 +118,15 @@
     <!-- ============================== SECTION-ABOUT ============================== -->
     <section class="section-about" id="o-mnie">
         <div class="section-wrapper">
-            <span class="text-absolute">M. Chałat</span>
             <header>
-                <h2>Malwina Chałat<p>Mistrzyni świata w stylizacji paznokci</p>
-                </h2>
+                <h2>Malwina Chałat</h2>
+                <p>Mistrzyni świata w stylizacji paznokci</p>
             </header>
             <div class="about-inner">
                 <div class="inner-element">
-                    <header>
-                        <h3>Dołącz do grupy zawodowych stylistek paznokci</h3>
-                        <p>to najlepsza inwestycja w przyszłość!</p>
-                    </header>
+                    <h3>Dołącz do grupy zawodowych stylistek paznokci</h3>
+                    <p>to najlepsza inwestycja w przyszłość!</p>
+                    <br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi impedit eligendi aliquam!
                         Quod libero sunt molestias voluptatum nisi voluptates.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam labore ipsum
@@ -139,6 +136,8 @@
                 <div class="inner-element" data-top="transform: translateY(-40px);"
                     data-bottom="transform: translateY(40px);">
                     <img src="img/pictures/zdjecie-about.png" alt="">
+                    <img class="image-absolute" src="img/pictures/1000_F_149753455_eoqBf6ODruE6TXutUToBDb1nqjU0YV82.png"
+                        alt="">
                 </div>
                 <div class="inner-element">
                     <a href="#trenerki" class="btn btn-default" data-scroll="scroll">Poznaj <br> <strong>nasze
@@ -147,6 +146,65 @@
             </div>
         </div>
     </section>
+
+    <!-- ============================== SECTION-TESTIMONIALS============================== -->
+    <section class="section-testimonials">
+        <div class="section-wrapper">
+            <div class="testimonials-content">
+                <header>
+                    <h2>Co mówią <strong>na mój temat</strong></h2>
+                </header>
+                <div class="owl-carousel-testimonials owl-carousel">
+                    <div class="testimonial">
+                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <h2>Polecam serdecznie
+                            <span>Anna Nowak</span>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit?</p>
+                    </div>
+                    <div class="testimonial">
+                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <h2>Super szkolenie
+                            <span>Ola Jakubiak</span>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
+                            ea quaerat distinctio sint.</p>
+                    </div>
+                    <div class="testimonial">
+                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <h2>Cenna wiedza
+                            <span>Kasia Olszewska</span>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
+                            ea quaerat.</p>
+                    </div>
+                    <div class="testimonial">
+                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <h2>Przystępne ceny
+                            <span>Iga Wasiak</span>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    $('.owl-carousel-testimonials').owlCarousel({
+        center: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        items: 3,
+        margin: 40,
+    });
+    </script>
 
     <!-- ============================== SECTION-OFFER-HEADER============================== -->
     <section class="section-offer-header" id="oferta">
@@ -161,53 +219,83 @@
                     eligendi! Libero voluptatum similique veritatis repudiandae culpa! Quam magnam dolorem illo, maxime
                     deserunt cumque.</p>
             </div>
-            <img src="img/pictures/AdobeStock_105170168_Preview.png" alt="" class="img-absolute"
-                data-top="transform: translateY(-30px);" data-bottom="transform: translateY(30px);">
             <div class="color-element">
-                <p>Skorzystaj z systemu ratalnego MediRaty</p>
+                <p>Skorzystaj <br> z systemu ratalnego MediRaty</p>
             </div>
         </div>
     </section>
 
     <!-- ============================== SECTION-OFFER============================== -->
-    <section class="section-offer" id="oferta-lista">
+    <section class="section-offer">
         <div class="section-wrapper">
             <div class="offer-content">
                 <ul class="offer-list">
                     <li class="heading">Szkolenia</li>
-                    <li>Szkolenie COMPLEX</li>
-                    <li>Szkolenie maraton ćwiczeniowy </li>
-                    <li>Szkolenie perfekcyjny manicure MASTER</li>
-                    <li>NAILS CAMP Dzień Kobiet</li>
-                    <li>Szkolenie Podstawa żelowa Migdał /kwadrat </li>
-                    <li>Manicure hybrydowy BASIC</li>
-                    <li>Szkolenie Tipsy come back!</li>
-                    <li>Szkolenie 5 kształtów salonowych </li>
-                    <li>Szkolenie Idealna ballerina </li>
-                    <li>Szkolenie Perfekcyjny migdał</li>
-                    <li>Ostra jak SZTYLET</li>
+                    <li>
+                        <a href="">Szkolenie COMPLEX</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie maraton ćwiczeniowy</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie perfekcyjny manicure MASTER</a>
+                    </li>
+                    <li>
+                        <a href="">NAILS CAMP Dzień Kobiet</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie Podstawa żelowa Migdał /kwadrat </a>
+                    </li>
+                    <li>
+                        <a href="">Manicure hybrydowy BASIC</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie Tipsy come back!</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie 5 kształtów salonowych</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie Idealna ballerina</a>
+                    </li>
+                    <li>
+                        <a href="">Szkolenie Perfekcyjny migdał</a>
+                    </li>
+                    <li>
+                        <a href="">Ostra jak SZTYLET</a>
+                    </li>
                 </ul>
                 <ul class="offer-list">
                     <li class="heading">Warsztaty</li>
-                    <li>Warsztaty perfekcyjna forma </li>
-                    <li>Warsztaty Naklejki stempelki</li>
-                    <li>Warsztaty Idealny frencz, idealny babyboomer</li>
-                    <li>Warsztaty wiosenne zdobienia mix media</li>
-                    <li>Warsztaty kwiaty akwarelowe</li>
+                    <li>
+                        <a href="">Warsztaty perfekcyjna forma</a>
+                    </li>
+                    <li>
+                        <a href="">Warsztaty Naklejki stempelki</a>
+                    </li>
+                    <li>
+                        <a href="">Warsztaty Idealny frencz, idealny babyboomer</a>
+                    </li>
+                    <li>
+                        <a href="">Warsztaty wiosenne zdobienia mix media</a>
+                    </li>
+                    <li>
+                        <a href=""> Warsztaty kwiaty akwarelowe</a>
+                    </li>
                 </ul>
                 <ul class="offer-list">
                     <li class="heading">Szkoły</li>
-                    <li>Półroczna szkoła stylizacji paznokci</li>
+                    <li>
+                        <a href="">Półroczna szkoła stylizacji paznokci</a>
+                    </li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-default btn-calendar" id="offer-calendar-button">
-                Sprawdź <strong>
-                    terminarz i ceny</strong>
-            </button>
+            <a href="#faq" class="btn btn-default" data-scroll="scroll">Sprawdź <strong>
+                    njczęściej zadawane pytania</strong></a>
         </div>
     </section>
 
-    <div class="modal-service-wrapper">
+    <!-- <div class="modal-service-wrapper">
         <div class="modal-service">
             <div class="service-inner">
                 <button type="button" class="service-button" id="offer-calendar-button-close">
@@ -398,40 +486,75 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- ============================== SECTION-TRAINERS ============================== -->
     <section class="section-trainers" id="trenerki">
+        <img src="img/pictures/1000_F_149753891_dK8lAlNcZ8MdeTMbUkyGwxaiRWCEyeFR.png" alt="" class="img-absolute"
+            data-top="transform: translateY(-80px);" data-bottom="transform: translateY(80px);">
         <div class="section-wrapper">
             <div class="trainers-content">
                 <header>
                     <h2> Nasze <strong>trenerki</strong></h2>
                 </header>
-                <div class="trainer" data-top="transform: translateY(-40px);"
-                    data-bottom="transform: translateY(40px);">
-                    <h2>Imię i nazwisko
-                        <span>stylistka paznokci</span>
-                    </h2>
-                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
-                </div>
-                <div class="trainer" data-top="transform: translateY(40px);"
-                    data-bottom="transform: translateY(-40px);">
-                    <h2>Imię i nazwisko
-                        <span>stylistka paznokci</span>
-                    </h2>
-                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
-                </div>
-                <div class="trainer" data-top="transform: translateY(-40px);"
-                    data-bottom="transform: translateY(40px);">
-                    <h2>Imię i nazwisko
-                        <span>stylistka paznokci</span>
-                    </h2>
-                    <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                <div class="owl-carousel-trainers owl-carousel">
+                    <div class="trainer" data-top="transform: translateY(-30px);"
+                        data-bottom="transform: translateY(30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
+                    <div class="trainer" data-top="transform: translateY(30px);"
+                        data-bottom="transform: translateY(-30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
+                    <div class="trainer" data-top="transform: translateY(-30px);"
+                        data-bottom="transform: translateY(30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
+                    <div class="trainer" data-top="transform: translateY(30px);"
+                        data-bottom="transform: translateY(-30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
+                    <div class="trainer" data-top="transform: translateY(-30px);"
+                        data-bottom="transform: translateY(30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
+                    <div class="trainer" data-top="transform: translateY(30px);"
+                        data-bottom="transform: translateY(-30px);">
+                        <h2>Imię i nazwisko
+                            <span>stylistka paznokci</span>
+                        </h2>
+                        <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        <span class="text-absolute">M. Chałat</span>
     </section>
+
+    <script>
+    $('.owl-carousel-trainers').owlCarousel({
+        center: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        items: 3,
+        margin: 20,
+    });
+    </script>
 
     <!-- ============================== SECTION-FAQ ============================== -->
     <section class="section-faq" id="faq">
