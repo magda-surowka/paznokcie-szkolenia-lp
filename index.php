@@ -120,7 +120,7 @@
         <div class="section-wrapper">
             <header>
                 <h2>Malwina Chałat</h2>
-                <p>Mistrzyni świata w stylizacji paznokci</p>
+                <p>Mistrzyni Świata w stylizacji paznokci</p>
             </header>
             <div class="about-inner">
                 <div class="inner-element">
@@ -136,8 +136,8 @@
                 <div class="inner-element" data-top="transform: translateY(-40px);"
                     data-bottom="transform: translateY(40px);">
                     <img src="img/pictures/zdjecie-about.png" alt="">
-                    <img class="image-absolute" src="img/pictures/1000_F_149753455_eoqBf6ODruE6TXutUToBDb1nqjU0YV82.png"
-                        alt="">
+                    <!-- <img class="image-absolute" src="img/pictures/1000_F_149753455_eoqBf6ODruE6TXutUToBDb1nqjU0YV82.png"
+                        alt=""> -->
                 </div>
                 <div class="inner-element">
                     <a href="#trenerki" class="btn btn-default" data-scroll="scroll">Poznaj <br> <strong>nasze
@@ -156,7 +156,7 @@
                 </header>
                 <div class="owl-carousel-testimonials owl-carousel">
                     <div class="testimonial">
-                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Polecam serdecznie
                             <span>Anna Nowak</span>
                         </h2>
@@ -164,7 +164,7 @@
                             error quas fugit?</p>
                     </div>
                     <div class="testimonial">
-                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Super szkolenie
                             <span>Ola Jakubiak</span>
                         </h2>
@@ -173,7 +173,7 @@
                             ea quaerat distinctio sint.</p>
                     </div>
                     <div class="testimonial">
-                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Cenna wiedza
                             <span>Kasia Olszewska</span>
                         </h2>
@@ -182,7 +182,7 @@
                             ea quaerat.</p>
                     </div>
                     <div class="testimonial">
-                        <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt="">
+                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Przystępne ceny
                             <span>Iga Wasiak</span>
                         </h2>
@@ -490,8 +490,8 @@
 
     <!-- ============================== SECTION-TRAINERS ============================== -->
     <section class="section-trainers" id="trenerki">
-        <img src="img/pictures/1000_F_149753891_dK8lAlNcZ8MdeTMbUkyGwxaiRWCEyeFR.png" alt="" class="img-absolute"
-            data-top="transform: translateY(-80px);" data-bottom="transform: translateY(80px);">
+        <!-- <img src="img/pictures/1000_F_149753891_dK8lAlNcZ8MdeTMbUkyGwxaiRWCEyeFR.png" alt="" class="img-absolute"
+            data-top="transform: translateY(-80px);" data-bottom="transform: translateY(80px);"> -->
         <div class="section-wrapper">
             <div class="trainers-content">
                 <header>

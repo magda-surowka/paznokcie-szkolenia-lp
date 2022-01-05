@@ -596,7 +596,7 @@ section.section-welcome {
         font-weight: 500;
 
         &:first-of-type {
-          font-size: 70px;
+          font-size: 60px;
           line-height: 1.1;
           letter-spacing: 2px;
         }
@@ -745,7 +745,7 @@ section.section-cta {
 
   p {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 28px;
 
     &:not(:first-of-type) {
@@ -778,8 +778,8 @@ section.section-about {
       font-family: "Manrope", sans-serif;
       color: #000;
       font-size: 18px;
+      font-weight: 400;
       line-height: 0;
-      font-weight: 300;
       margin-left: 25px;
     }
   }
@@ -828,6 +828,7 @@ section.section-about {
       h4 {
         font-size: 18px;
         line-height: 32px;
+        font-weight: 400;
       }
 
       p {
@@ -1025,14 +1026,6 @@ section.section-testimonials {
   padding-top: 100px;
   background-color: #f2f2f2;
 
-  .img-absolute {
-    position: absolute;
-    max-height: 300px;
-    object-fit: contain;
-    top: 0;
-    left: 0;
-  }
-
   .trainers-content,
   .testimonials-content {
     display: flex;
@@ -1043,7 +1036,7 @@ section.section-testimonials {
     header {
       h2 {
         font-size: 60px;
-        line-height: 1.4;
+        line-height: 1.2;
         text-align: right;
         letter-spacing: 1.5px;
 
@@ -1069,7 +1062,7 @@ section.section-testimonials {
 
       .owl-nav {
         position: absolute;
-        top: 50%;
+        top: 40%;
         right: 0;
         display: flex;
         justify-content: space-between;
@@ -1119,7 +1112,6 @@ section.section-testimonials {
 
     .trainer,
     .testimonial {
-      padding-top: 50px;
       position: relative;
       min-width: 300px;
       min-height: 300px;
@@ -1132,15 +1124,6 @@ section.section-testimonials {
       img {
         width: 100%;
         object-fit: cover;
-
-        &.img-absolute {
-          position: absolute;
-          top: -15%;
-          width: 60%;
-          transform: rotate(10deg);
-          opacity: 0;
-          transition: opacity 350ms;
-        }
       }
 
       .testimonial-inner {
@@ -1178,10 +1161,9 @@ section.section-testimonials {
       .owl-item {
         transition: all 0.6s;
         opacity: 0.5;
-        padding: 65px 0;
 
         .testimonial {
-          justify-content: flex-start;
+          justify-content: center;
           box-shadow: none;
         }
 
@@ -1191,12 +1173,6 @@ section.section-testimonials {
 
           .testimonial {
             box-shadow: 0px 5px 30px 1px rgba(#9b9b9b, 0.3);
-          }
-
-          img {
-            &.img-absolute {
-              opacity: 1;
-            }
           }
         }
       }
@@ -1400,7 +1376,7 @@ section.section-footer {
       padding: 60px 0 60px 30px;
 
       h2 {
-        font-size: 32px;
+        font-size: 42px;
         margin-bottom: 20px;
       }
 
