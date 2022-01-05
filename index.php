@@ -156,7 +156,6 @@
                 </header>
                 <div class="owl-carousel-testimonials owl-carousel">
                     <div class="testimonial">
-                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Polecam serdecznie
                             <span>Anna Nowak</span>
                         </h2>
@@ -164,7 +163,6 @@
                             error quas fugit?</p>
                     </div>
                     <div class="testimonial">
-                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Super szkolenie
                             <span>Ola Jakubiak</span>
                         </h2>
@@ -173,7 +171,6 @@
                             ea quaerat distinctio sint.</p>
                     </div>
                     <div class="testimonial">
-                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Cenna wiedza
                             <span>Kasia Olszewska</span>
                         </h2>
@@ -182,7 +179,6 @@
                             ea quaerat.</p>
                     </div>
                     <div class="testimonial">
-                        <!-- <img class="img-absolute" src="img/pictures/AdobeStock_246045826_Preview.png" alt=""> -->
                         <h2>Przystępne ceny
                             <span>Iga Wasiak</span>
                         </h2>
@@ -202,7 +198,7 @@
         nav: true,
         dots: false,
         items: 3,
-        margin: 40,
+        margin: 10,
     });
     </script>
 
@@ -498,43 +494,43 @@
                     <h2> Nasze <strong>trenerki</strong></h2>
                 </header>
                 <div class="owl-carousel-trainers owl-carousel">
-                    <div class="trainer" data-top="transform: translateY(-30px);"
-                        data-bottom="transform: translateY(30px);">
+                    <div class="trainer" data-top="transform: translateY(-40px);"
+                        data-bottom="transform: translateY(40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
                         <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                     </div>
-                    <div class="trainer" data-top="transform: translateY(30px);"
-                        data-bottom="transform: translateY(-30px);">
+                    <div class="trainer" data-top="transform: translateY(40px);"
+                        data-bottom="transform: translateY(-40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
                         <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                     </div>
-                    <div class="trainer" data-top="transform: translateY(-30px);"
-                        data-bottom="transform: translateY(30px);">
+                    <div class="trainer" data-top="transform: translateY(-40px);"
+                        data-bottom="transform: translateY(40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
                         <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                     </div>
-                    <div class="trainer" data-top="transform: translateY(30px);"
-                        data-bottom="transform: translateY(-30px);">
+                    <div class="trainer" data-top="transform: translateY(40px);"
+                        data-bottom="transform: translateY(-40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
                         <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                     </div>
-                    <div class="trainer" data-top="transform: translateY(-30px);"
-                        data-bottom="transform: translateY(30px);">
+                    <div class="trainer" data-top="transform: translateY(-40px);"
+                        data-bottom="transform: translateY(40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
                         <img src="img/pictures/close-up-portrait-smiling-young-woman-looking-camera.jpg" alt="">
                     </div>
-                    <div class="trainer" data-top="transform: translateY(30px);"
-                        data-bottom="transform: translateY(-30px);">
+                    <div class="trainer" data-top="transform: translateY(40px);"
+                        data-bottom="transform: translateY(-40px);">
                         <h2>Imię i nazwisko
                             <span>stylistka paznokci</span>
                         </h2>
