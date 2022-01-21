@@ -6,23 +6,22 @@
   border-radius: 20px;
   transition: all 850ms;
   backface-visibility: hidden;
-  font-weight: 500;
 
-  &.btn-color {
-    background-color: @color1;
-    text-transform: uppercase;
-    padding: 8px 30px;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
+  &.btn-default {
+    background-color: rgba(#000, 50%);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    padding: 7px 40px;
+    font-size: 17px;
+    font-family: "tt_commonsmedium";
+    letter-spacing: 2px;
     color: #fff;
     transition: background-color 350ms;
-    border: 1px solid #fff;
   }
 
   &:hover {
-    &.btn-color {
-      background-color: darken(@color1, 15%);
+    &.btn-default {
+      background-color: rgba(#000, 60%);
     }
   }
 

@@ -1,21 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
 
-// @font-face {
-//   font-family: "moniqa";
-//   src: url("../fonts/MoniqaCondensedHeading.otf") format("otf"),
-//     url("../fonts/MoniqaCondensedHeading.ttf") format("ttf");
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: "tt_commonsdemibold";
+  src: url("../fonts/ttcommons-demibold-webfont.woff2") format("woff2"),
+    url("../fonts/ttcommons-demibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tt_commonslight";
+  src: url("../fonts/ttcommons-light-webfont.woff2") format("woff2"),
+    url("../fonts/ttcommons-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tt_commonsmedium";
+  src: url("../fonts/ttcommons-medium-webfont.woff2") format("woff2"),
+    url("../fonts/ttcommons-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "tt_commonsregular";
+  src: url("../fonts/ttcommons-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ttcommons-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   min-height: 100vh;
   height: 100%;
-  font-family: "Manrope", sans-serif;
+  font-family: "tt_commonsregular";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #f8f7f5;
+  background-color: #dbae97;
   transition: background-color 350ms;
 
   &.no-scroll {
@@ -249,7 +270,7 @@ body {
               font-weight: 700;
             }
 
-            .btn-color {
+            .btn-default {
               padding: 5px 15px;
               font-size: 12px;
             }
@@ -371,12 +392,14 @@ nav.section-header {
 
   .header-management {
     padding: 25px 0;
+    border: 0.5ps solid transparent;
     max-height: 200px;
+    border-radius: 50px;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: all 0.5s;
+    transition: all 0.4s;
 
     .management-links {
       transition: all 0.5s;
@@ -387,23 +410,37 @@ nav.section-header {
 
         li {
           a {
-            color: #000;
-            font-size: 13px;
-            letter-spacing: 1px;
-            font-weight: 500;
+            color: #fff;
+            font-family: "tt_commonslight";
+            font-size: 17px;
+            letter-spacing: 1.7px;
 
-            &.btn-color {
-              padding: 5px 30px;
-              color: #fff;
-            }
-
-            svg {
-              width: 18px;
-              height: 18px;
+            &.btn-default {
+              font-family: "tt_commonsmedium";
             }
           }
 
-          & + li {
+          &.links-social-media {
+            margin-left: 15px;
+
+            a {
+              background-color: #fff;
+              box-shadow: 0px 4px 10px 1px rgba(#777777, 0.2);
+              width: 30px;
+              height: 30px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 100px;
+
+              svg {
+                width: 17px;
+                height: 17px;
+              }
+            }
+          }
+
+          & + li:not(.links-social-media) {
             margin-left: 25px;
           }
         }
@@ -412,39 +449,14 @@ nav.section-header {
 
     .management-logo {
       text-align: center;
-      opacity: 0;
       transition: all 1s;
 
       a {
-        display: block;
-        position: relative;
-        transition: all 0.4s;
-        transform: translateZ(0);
-        letter-spacing: 1px;
-        font-size: 44px;
-        line-height: 1;
-        font-family: "Great Vibes", cursive;
-        background: linear-gradient(@color1, #ffe582);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        padding: 5px 10px 0 0;
-
-        span {
-          display: block;
-          font-size: 11px;
-          margin-left: 10px;
-          font-weight: 600;
-          transition: opacity 350ms;
-          background: -webkit-linear-gradient(#000, #000);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          font-family: "Manrope", sans-serif;
-          padding-bottom: 5px;
+        img {
+          width: 300px;
+          height: auto;
+          transform: translateZ(0);
         }
-      }
-
-      &.opacity {
-        opacity: 1;
       }
     }
 
@@ -472,17 +484,18 @@ nav.section-header {
   }
 
   &.scrolled {
-    background: rgba(@color2, 0.7);
-
     .header-management {
-      padding: 5px 0;
+      padding: 10px 20px;
+      background-color: rgba(0, 0, 0, 0.15);
+      border: 0.5px solid rgba(#fff, 0.35);
+      backdrop-filter: blur(3px);
 
       .management-logo {
         a {
           transform: translateY(10px) scale(0.85);
 
-          span {
-            opacity: 0;
+          img {
+            transform: scale(0.9);
           }
         }
       }
@@ -582,6 +595,16 @@ section.section-welcome {
   position: relative;
   padding-top: 130px;
 
+  .img-pattern {
+    position: absolute;
+    z-index: -1;
+    top: -50%;
+    left: -20%;
+    width: 65%;
+    opacity: 0.12;
+    transform: rotate(-35deg);
+  }
+
   .wrapper-inner {
     position: relative;
     display: flex;
@@ -590,38 +613,38 @@ section.section-welcome {
 
     header {
       position: relative;
-      padding-right: 170px;
 
       p {
         font-weight: 500;
+        color: #fff;
 
         &:first-of-type {
-          font-size: 60px;
+          font-size: 70px;
           line-height: 1.1;
           letter-spacing: 2px;
+          font-family: "Tenor Sans", sans-serif;
         }
 
         &:nth-of-type(2) {
-          font-size: 18px;
+          font-size: 22px;
           letter-spacing: 1.5px;
+          font-family: "tt_commonslight";
         }
 
         &:nth-of-type(3) {
-          font-size: 18px;
+          font-size: 22px;
           padding-left: 150px;
           margin-top: 20px;
           letter-spacing: 1.5px;
+          font-family: "tt_commonslight";
         }
 
         &:nth-of-type(4) {
-          font-size: 48px;
+          font-size: 38px;
           letter-spacing: 2px;
-          line-height: 1.5;
+          line-height: 1.1;
           padding-left: 265px;
-          font-family: "Great Vibes", cursive;
-          background: -webkit-linear-gradient(@color1, #ffe582);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          font-family: "Tenor Sans", sans-serif;
         }
       }
     }
@@ -631,34 +654,17 @@ section.section-welcome {
     position: relative;
     width: 45%;
 
-    &:before,
-    &:after {
-      content: "";
-      position: absolute;
-      top: -250px;
-      left: -500px;
-      width: 970px;
-      height: 136%;
-    }
-
-    &:before {
-      background-color: #fff;
-    }
-
-    .img-absolute {
-      position: relative;
-      z-index: 1;
+    img {
       width: 100%;
-      max-width: 550px;
       object-fit: contain;
     }
   }
 
   .inner-description {
-    width: 55%;
+    width: 58%;
 
     .wrapper-icons {
-      margin-top: 60px;
+      margin-top: 80px;
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -667,10 +673,10 @@ section.section-welcome {
       flex-wrap: wrap;
 
       .icon {
-        font-size: 13px;
-        letter-spacing: 1px;
-        font-weight: 500;
-        color: #000;
+        font-size: 18px;
+        letter-spacing: 1.7px;
+        font-family: "tt_commonslight";
+        color: #fff;
         display: flex;
         align-items: center;
 
@@ -683,12 +689,12 @@ section.section-welcome {
           align-items: center;
           justify-content: center;
           margin-right: 15px;
-          box-shadow: 0px 4px 10px 1px rgba(#000, 0.15);
+          box-shadow: 0px 4px 10px 1px rgba(#777777, 0.2);
         }
 
         img {
           margin-top: 2px;
-          width: 20px;
+          width: 16px;
         }
       }
     }
@@ -696,64 +702,82 @@ section.section-welcome {
 }
 
 section.section-cta {
-  padding: 120px 0 150px;
+  position: relative;
+  padding-bottom: 150px;
 
-  .cta-inner {
+  .img-absolute {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    max-width: 500px;
+  }
+
+  .inner-cta {
     position: relative;
-    background-color: #fff;
-    box-shadow: 0px 20px 40px 1px rgba(#9b9b9b, 0.25);
-    width: 100%;
-    min-height: 300px;
-    padding: 80px 50px;
+    padding: 80px 100px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.12);
+    border: 0.5px solid rgba(#fff, 0.35);
+    box-shadow: 0px 20px 40px 1px rgba(#7777, 0.25);
+    border-radius: 30px;
 
-    .cta-image {
-      object-fit: contain;
-      margin-left: -300px;
+    .inner-image {
+      position: absolute;
+      z-index: -1;
+      top: -55%;
+      left: -25%;
+      width: 80%;
+      opacity: 0.5;
+      transform: rotate(-45deg);
+      fill: #dbae97;
     }
-  }
 
-  header {
-    width: 30%;
+    header {
+      width: 45%;
+      color: #fff;
 
-    h2 {
-      font-size: 48px;
-      line-height: 1.1;
-      font-weight: 600;
+      h2 {
+        font-size: 50px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+        font-family: "Tenor Sans", sans-serif;
 
-      strong {
-        background: linear-gradient(@color1, #ffe582);
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
+        strong {
+          display: block;
+          font-size: 80px;
+        }
       }
 
       p {
-        font-family: "Manrope", sans-serif;
-        margin-top: 15px;
-        font-size: 18px;
-        letter-spacing: 1px;
+        font-family: "tt_commonslight";
+        margin-top: 25px;
+        font-size: 24px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .inner-description {
+      width: 50%;
+      color: #fff;
+
+      p {
+        font-size: 17px;
+        letter-spacing: 1.7px;
+        line-height: 28px;
+        font-family: "tt_commonslight";
+
+        &:not(:first-of-type) {
+          margin-top: 15px;
+        }
       }
     }
   }
 
-  .inner-description {
-    width: 40%;
-  }
-
-  p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 28px;
-
-    &:not(:first-of-type) {
-      margin-top: 15px;
-    }
-  }
-
-  .btn-color {
+  .btn-default {
     margin-top: 30px;
   }
 }
@@ -761,24 +785,18 @@ section.section-cta {
 section.section-about {
   position: relative;
   padding: 150px 0 50px;
-  background-color: #f2f2f2;
 
   header {
-    h2 {
-      font-family: "Great Vibes", cursive;
-      background: linear-gradient(@color1, #ffe582);
-      background-clip: text;
-      -webkit-text-fill-color: transparent;
+    color h2 {
+      font-family: "Tenor Sans", sans-serif;
       font-size: 70px;
       line-height: 1.3;
-      letter-spacing: 1.5px;
+      letter-spacing: 1.7px;
     }
 
     p {
-      font-family: "Manrope", sans-serif;
       color: #000;
       font-size: 18px;
-      font-weight: 400;
       line-height: 0;
       margin-left: 25px;
     }

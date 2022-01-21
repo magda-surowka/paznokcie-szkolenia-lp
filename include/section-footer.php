@@ -110,7 +110,7 @@
                         </span>
                     </label>
                     <div class="button-wrapper">
-                        <button name="button_send" type="submit" class="btn btn-color">
+                        <button name="button_send" type="submit" class="btn btn-default">
                             <span class="line"></span>Zarezerwuj termin
                         </button>
                     </div>

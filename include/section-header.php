@@ -14,9 +14,9 @@
                         <span class="burger-menu-text">MENU</span>
                     </button>
                 </div>
-                <div class="management-logo opacity">
+                <div class="management-logo">
                     <a href="index">
-                        Malwina Chałat<span>Instruktor Stylizacji Paznokci</span>
+                        <img src="img/logo/logo-white.svg" alt="">
                     </a>
                 </div>
                 <div class="management-links">
@@ -37,9 +37,9 @@
                             <a href="#formularz-zapisu" data-scroll="scroll">Zapisz się na szkolenie</a>
                         </li>
                         <li>
-                            <a href="" class="btn btn-color">Sklep</a>
+                            <a href="" class="btn btn-default">Sklep</a>
                         </li>
-                        <li>
+                        <li class="links-social-media">
                             <a href="" target="_blank">
                                 <svg class="fill-default-hover" viewBox="-110 1 511 511.99996"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@
                                 </svg>
                             </a>
                         </li>
-                        <li>
+                        <li class="links-social-media">
                             <a href="" target="_blank">
                                 <svg class="fill-default-hover" viewBox="0 0 512.00096 512.00096"
                                     xmlns="http://www.w3.org/2000/svg">
