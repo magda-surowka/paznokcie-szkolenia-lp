@@ -3,25 +3,33 @@
   background-color: transparent;
   padding: 0;
   margin: 0;
-  border-radius: 20px;
   transition: all 850ms;
   backface-visibility: hidden;
+  border-radius: 0;
 
   &.btn-default {
-    background-color: rgba(#000, 50%);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    padding: 7px 40px;
-    font-size: 17px;
+    padding: 15px 20px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
     font-family: "tt_commonsmedium";
-    letter-spacing: 2px;
-    color: #fff;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #212825;
     transition: background-color 350ms;
+    background-image: linear-gradient(
+      to right,
+      #f09819 0%,
+      #edde5d 40%,
+      #f09819 100%
+    );
+    transition: 0.5s;
+    background-size: 200% auto;
   }
 
   &:hover {
     &.btn-default {
-      background-color: rgba(#000, 60%);
+      background-position: right center;
     }
   }
 
