@@ -121,22 +121,22 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         14-18 luty, godz. 15.00-21.00
-                                        <h4>szkolenie COMPLEX <br> (grupa max 6 os)</h4>
+                                        <h4>Szkolenie COMPLEX <br> (grupa max 6 os)</h4>
                                         <p class="price"> cena: <strong>2500 zł</strong></p>
                                     </li>
                                     <li>
                                         15 luty, godz. 9.00-15:00
-                                        <h4>warsztaty Naklejki stempelki <br> (grupa max 12 os)</h4>
+                                        <h4>Warsztaty Naklejki stempelki <br> (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 500 zł</strong></p>
                                     </li>
                                     <li>
                                         17 luty, godz. 9.00-15.00
-                                        <h4>warsztaty Idealny frencz, idealny babyboomer (grupa max 6 os)</h4>
+                                        <h4>Warsztaty Idealny frencz, idealny babyboomer (grupa max 6 os)</h4>
                                         <p class="price">cena:<strong> 600 zł</strong></p>
                                     </li>
                                     <li>
                                         22-25 luty, godz. 8.30-16.30
-                                        <h4>szkolenie Maraton ćwiczeniowy <br> (grupa max 4 os)</h4>
+                                        <h4>Szkolenie Maraton ćwiczeniowy <br> (grupa max 4 os)</h4>
                                         <p class="price">cena:<strong> 2500 zł</strong></p>
                                     </li>
                                     <li>
@@ -157,18 +157,18 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         4-6 marzec
-                                        <h4> Kołobrzeg LEDA SPA, <br> NAILS CAMP Dzień Kobiet <br> (grupa max 12 os)
+                                        <h4>Kołobrzeg LEDA SPA, <br> NAILS CAMP Dzień Kobiet <br> (grupa max 12 os)
                                         </h4>
                                         <p class="price">cena:<strong> 1200 zł</strong></p>
                                     </li>
                                     <li>
                                         9-10 marzec
-                                        <h4>szkolenie Podstawa żelowa Migdał/kwadrat (grupa max 6 os)</h4>
+                                        <h4>Szkolenie Podstawa żelowa Migdał/kwadrat (grupa max 6 os)</h4>
                                         <p class="price">cena:<strong> 1200 zł</strong></p>
                                     </li>
                                     <li>
                                         15 marzec, godz. 9.00-15.00
-                                        <h4> szkolenie Manicure hybrydowy BASIC (grupa max 6 os)</h4>
+                                        <h4>Szkolenie Manicure hybrydowy BASIC (grupa max 6 os)</h4>
                                         <p class="price">cena:<strong> 450 zł</strong></p>
                                     </li>
                                     <li>
@@ -178,12 +178,12 @@
                                     </li>
                                     <li>
                                         20 marzec, godz. 9.00-17.00
-                                        <h4> warsztaty wiosenne zdobienia mix media (grupa max 12 os)</h4>
+                                        <h4>Warsztaty wiosenne zdobienia mix media (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 400 zł</strong></p>
                                     </li>
                                     <li>
                                         24 marzec, godz. 9.00-17.00
-                                        <h4>szkolenie 5 kształtów salonowych (grupa max 6 os)</h4>
+                                        <h4>Szkolenie 5 kształtów salonowych (grupa max 6 os)</h4>
                                         <p class="price">cena:<strong> 800 zł</strong></p>
                                     </li>
                                     <li>
@@ -209,7 +209,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         4-6 kwiecień, godz. 15.00-21.00
-                                        <h4>szkolenie COMPLEX <br> (grupa max 6 os) </h4>
+                                        <h4>Szkolenie COMPLEX <br> (grupa max 6 os) </h4>
                                         <p class="price">cena:<strong> 2500 zł</strong></p>
                                     </li>
                                     <li>
@@ -224,7 +224,7 @@
                                     </li>
                                     <li>
                                         8 kwiecień, godz. 8.30-14.30
-                                        <h4>warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
+                                        <h4>Warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 400 zł</strong></p>
                                     </li>
                                     <li>
@@ -234,12 +234,12 @@
                                     </li>
                                     <li>
                                         23 kwiecień, godz. 15-30-21.30
-                                        <h4>szkolenie Ostra jak SZTYLET <br> (grupa max 6 os)</h4>
+                                        <h4>Szkolenie Ostra jak SZTYLET <br> (grupa max 6 os)</h4>
                                         <p class="price">cena:<strong> 800 zł</strong></p>
                                     </li>
                                     <li>
                                         24 kwiecień, godz. 15-30-21.30
-                                        <h4>szkolenie Manicure hybrydowy BASIC (grupa max 6 os) </h4>
+                                        <h4>Szkolenie Manicure hybrydowy BASIC (grupa max 6 os) </h4>
                                         <p class="price">cena:<strong> 450 zł</strong></p>
                                     </li>
                                 </ul>
@@ -254,7 +254,7 @@
                                 <ul class="list-unstyled">
                                     <li>
                                         9-12 maj, godz. 15.00-21.00
-                                        <h4>szkolenie maraton ćwiczeniowy <br> (grupa max 4 os) </h4>
+                                        <h4>Szkolenie maraton ćwiczeniowy <br> (grupa max 4 os) </h4>
                                         <p class="price">cena:<strong> 2500 zł</strong></p>
                                     </li>
                                     <li>
@@ -274,12 +274,12 @@
                                     </li>
                                     <li>
                                         28 maj, godz. 15.30-21.30
-                                        <h4>warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
+                                        <h4>Warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 400 zł</strong></p>
                                     </li>
                                     <li>
                                         29 maj, godz. 15.30-21.30
-                                        <h4>warsztaty MIX MEDIA SUMMER (grupa max 12 os)</h4>
+                                        <h4>Warsztaty MIX MEDIA SUMMER (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 400 zł</strong></p>
                                     </li>
                                 </ul>
