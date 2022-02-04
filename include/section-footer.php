@@ -5,14 +5,16 @@
     <div class=" section-wrapper">
         <div class="footer-wrapper">
             <div class="footer-text">
-                <div class="footer-logo">
-                    Malwina Chałat<span>Instruktor Stylizacji Paznokci</span>
+                <div class="text-color">
+                    <a href="index" class="footer-logo">
+                        <img src="img/logo/logo-black.svg" alt="">
+                    </a>
+                    <p>Dołącz do grupy zawodowych stylistek paznokci - <br>
+                        <strong>to najlepsza inwestycja w przyszłość!</strong>
+                    </p>
                 </div>
-                <p>Dołącz do grupy zawodowych stylistek paznokci - <br>
-                    <strong>to najlepsza inwestycja w przyszłość!</strong>
-                </p>
                 <div class="footer-social-media">
-                    <span>social media: </span>
+                    <span>obserwuj mnie: </span>
                     <a href="">
                         <svg class="fill-default-hover" viewBox="-110 1 511 511.99996"
                             xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +38,6 @@
                         </svg>
                     </a>
                 </div>
-                <img src="img/pictures/AdobeStock_299916379_Preview.png" alt="" class="footer-image">
             </div>
             <div class="footer-form">
                 <form method="post" action="">
@@ -70,10 +71,12 @@
                             <label>Szkolenie*</label>
                             <div class="input-wrapper">
                                 <select name="" required="required">
+                                    <option selected="true" disabled="disabled">Wybierz szkolenie</option>
                                     <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
                                     <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
                                     <option value="">Szkolenie COMPLEX - trenerka Anna Nowak</option>
-                                    <option value="">Szkolenie perfekcyjny manicure MASTER - trenerka Kasia Jaskółska
+                                    <option value="">Szkolenie perfekcyjny manicure MASTER - trenerka Kasia
+                                        Jaskółska
                                     </option>
                                     <option value="">Manicure hybrydowy BASIC - trenerka Ola Wasiak</option>
                                 </select>

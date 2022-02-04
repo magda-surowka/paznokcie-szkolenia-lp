@@ -22,13 +22,13 @@
                 <div class="management-links">
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#oferta" data-scroll="scroll">Oferta szkoleń</a>
+                            <a href="#szkolenia" data-scroll="scroll">Oferta szkoleń</a>
                         </li>
                         <li>
-                            <a href="" data-scroll="scroll">O mnie</a>
+                            <a href="#o-mnie" data-scroll="scroll">O mnie</a>
                         </li>
                         <li>
-                            <a href="" data-scroll="scroll">Opinie</a>
+                            <a href="#opinie" data-scroll="scroll">Opinie</a>
                         </li>
                         <li>
                             <a href="#formularz-zapisu" data-scroll="scroll"> Zapisz się na szkolenie</a>

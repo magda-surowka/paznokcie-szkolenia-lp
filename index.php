@@ -59,7 +59,7 @@
                             <li>- Niezbędna wiedza do tego, aby stać się najlepszą, zawodową stylistką</li>
                             <li>- Tylko u mnie: najmodniejsze kolory, najlepsze produkty, najnowsza wiedza</li>
                         </ul>
-                        <a href="" class="btn btn-default">Aktualne szkolenia</a>
+                        <a href="#szkolenia" data-scroll="scroll" class=" btn btn-default">Aktualne szkolenia</a>
                     </header>
                     <div class="inner-logos">
                         <p><strong>współpraca:</strong></p>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="inner-image">
-                    <div class="bg-border"></div>
+                    <div class="bg-border-gold"></div>
                     <img src="img/pictures/zdjecie-welcome.png" alt="">
                 </div>
                 <ul class="list-unstyled links-social-media">
@@ -105,6 +105,292 @@
         </div>
     </section>
 
+    <!-- ============================== SECTION-OFFER ============================== -->
+    <section class="section-offer" id="szkolenia">
+        <div class="section-wrapper">
+            <div class="wrapper-inner">
+                <header>
+                    <h2>Najbliższe szkolenia</h2>
+                </header>
+                <div class="inner-offer">
+                    <div class="owl-carousel-offer owl-carousel">
+                        <div class="offer-item">
+                            <div class="item-calendar">
+                                <div class="bg-border-gold"></div>
+                                <h3 class="month">Luty 2022</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        14-18 luty, godz. 15.00-21.00
+                                        <h4>szkolenie COMPLEX <br> (grupa max 6 os)</h4>
+                                        <p class="price"> cena: <strong>2500 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        15 luty, godz. 9.00-15:00
+                                        <h4>warsztaty Naklejki stempelki <br> (grupa max 12 os)</h4>
+                                        <p class="price">cena:<strong> 500 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        17 luty, godz. 9.00-15.00
+                                        <h4>warsztaty Idealny frencz, idealny babyboomer (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        22-25 luty, godz. 8.30-16.30
+                                        <h4>szkolenie Maraton ćwiczeniowy <br> (grupa max 4 os)</h4>
+                                        <p class="price">cena:<strong> 2500 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        26-27 luty, godz. 9.00-15.00
+                                        <h4>2 zjazd szkoły półrocznej stylizacji paznokci</h4>
+                                        <p class="price">cena:<strong> 900 zł</strong></p>
+                                    </li>
+                                </ul>
+                                <a href="#formularz-zapisu" data-scroll="scroll"
+                                    class="btn btn-default btn-absolute">Zapisz się na
+                                    szkolenie</a>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="item-calendar">
+                                <div class="bg-border-gold"></div>
+                                <h3 class="month">Marzec 2022</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        4-6 marzec
+                                        <h4> Kołobrzeg LEDA SPA, <br> NAILS CAMP Dzień Kobiet <br> (grupa max 12 os)
+                                        </h4>
+                                        <p class="price">cena:<strong> 1200 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        9-10 marzec
+                                        <h4>szkolenie Podstawa żelowa Migdał/kwadrat (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 1200 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        15 marzec, godz. 9.00-15.00
+                                        <h4> szkolenie Manicure hybrydowy BASIC (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 450 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        19 marzec, godz. 9.00-15.00
+                                        <h4>Szkolenie Tipsy come back! <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        20 marzec, godz. 9.00-17.00
+                                        <h4> warsztaty wiosenne zdobienia mix media (grupa max 12 os)</h4>
+                                        <p class="price">cena:<strong> 400 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        24 marzec, godz. 9.00-17.00
+                                        <h4>szkolenie 5 kształtów salonowych (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 800 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        25 marzec, godz. 9.00-15.00
+                                        <h4>Szkolenie Idealna ballerina <br> (grupa max 6 os) </h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        26-27 marzec, godz. 9.00-15.00
+                                        <h4>3 zjazd szkoły półrocznej <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 900 zł</strong></p>
+                                    </li>
+                                </ul>
+                                <a href="#formularz-zapisu" data-scroll="scroll"
+                                    class="btn btn-default btn-absolute">Zapisz się na
+                                    szkolenie</a>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="item-calendar">
+                                <div class="bg-border-gold"></div>
+                                <h3 class="month">Kwiecień 2022</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        4-6 kwiecień, godz. 15.00-21.00
+                                        <h4>szkolenie COMPLEX <br> (grupa max 6 os) </h4>
+                                        <p class="price">cena:<strong> 2500 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        4 kwiecień, godz. 8.30-14.30
+                                        <h4>Szkolenie Perfekcyjny migdał <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        6 kwiecień, godz. 8.30-14.30
+                                        <h4>Szkolenie Tipsy Come Back <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        8 kwiecień, godz. 8.30-14.30
+                                        <h4>warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
+                                        <p class="price">cena:<strong> 400 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        23-24 kwiecień, godz. 9.00-15.00
+                                        <h4>4 zjazd szkoły półrocznej</h4>
+                                        <p class="price">cena:<strong> 900 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        23 kwiecień, godz. 15-30-21.30
+                                        <h4>szkolenie Ostra jak SZTYLET <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 800 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        24 kwiecień, godz. 15-30-21.30
+                                        <h4>szkolenie Manicure hybrydowy BASIC (grupa max 6 os) </h4>
+                                        <p class="price">cena:<strong> 450 zł</strong></p>
+                                    </li>
+                                </ul>
+                                <a href="#formularz-zapisu" class="btn btn-default btn-absolute">Zapisz się na
+                                    szkolenie</a>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="item-calendar">
+                                <div class="bg-border-gold"></div>
+                                <h3 class="month">Maj 2022</h3>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        9-12 maj, godz. 15.00-21.00
+                                        <h4>szkolenie maraton ćwiczeniowy <br> (grupa max 4 os) </h4>
+                                        <p class="price">cena:<strong> 2500 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        9 maj, godz. 8.30-14.30
+                                        <h4>Szkolenie Idealna ballerina <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        12 maj, godz. 8.30-14.30
+                                        <h4>Szkolenie perfekcyjny migdał (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 600 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        28-29 maj, godz. 9.00-15.00
+                                        <h4>5 zjazd szkoły półrocznej <br> (grupa max 6 os)</h4>
+                                        <p class="price">cena:<strong> 900 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        28 maj, godz. 15.30-21.30
+                                        <h4>warsztaty kwiaty akwarelowe <br> (grupa max 12 os)</h4>
+                                        <p class="price">cena:<strong> 400 zł</strong></p>
+                                    </li>
+                                    <li>
+                                        29 maj, godz. 15.30-21.30
+                                        <h4>warsztaty MIX MEDIA SUMMER (grupa max 12 os)</h4>
+                                        <p class="price">cena:<strong> 400 zł</strong></p>
+                                    </li>
+                                </ul>
+                                <a href="#formularz-zapisu" data-scroll="scroll"
+                                    class="btn btn-default btn-absolute">Zapisz się na
+                                    szkolenie</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+        $('.owl-carousel-offer').owlCarousel({
+            center: true,
+            loop: true,
+            nav: true,
+            dots: false,
+            items: 1,
+            autoHeight: true,
+            slideTransition: 'linear',
+        });
+        </script>
+
+    </section>
+
+    <!-- ============================== SECTION-ABOUT ============================== -->
+    <section class="section-about" id="o-mnie">
+        <div class="section-wrapper">
+            <div class="wrapper-inner">
+                <div class="inner-description">
+                    <header>
+                        <h2>Malwina Chałat</h2>
+                        <p>Mistrzyni Świata w stylizacji paznokci</p>
+                    </header>
+                    <div class="description-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus incidunt velit dolores
+                            voluptatum
+                            sapiente itaque distinctio quia saepe laudantium necessitatibus iste doloremque fuga omnis,
+                            cumque
+                            quam rem ea! Ea ad commodi maxime unde ratione assumenda deserunt quaerat dolore iste
+                            perspiciatis,
+                            saepe vero, est eligendi reprehenderit nemo nostrum molestias voluptates veritatis.</p>
+                    </div>
+                </div>
+                <div class="inner-image">
+                    <div class="image">
+                        <div class="bg-border-gold"></div>
+                        <img src="img/pictures/zdjecie-about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================== SECTION-TESTIMONIALS ============================== -->
+    <section class="section-testimonials" id="opinie">
+        <div class="section-wrapper">
+            <header>
+                <h2>Opinie Kursantek</h2>
+            </header>
+            <div class="testimonials-content">
+                <div class="owl-carousel-testimonials owl-carousel">
+                    <div class="testimonial">
+                        <h2>Polecam serdecznie
+                            <p>Anna Nowak</p>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit?</p>
+                    </div>
+                    <div class="testimonial">
+                        <h2>Super szkolenie
+                            <p>Ola Jakubiak</p>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
+                            ea quaerat distinctio sint.</p>
+                    </div>
+                    <div class="testimonial">
+                        <h2>Cenna wiedza
+                            <p>Kasia Olszewska</p>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
+                            ea quaerat.</p>
+                    </div>
+                    <div class="testimonial">
+                        <h2>Przystępne ceny
+                            <p>Iga Wasiak</p>
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
+                            error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+    $('.owl-carousel-testimonials').owlCarousel({
+        center: true,
+        loop: true,
+        nav: true,
+        dots: false,
+        items: 3,
+        margin: 10,
+    });
+    </script>
+
     <script src="js/skrollr.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
@@ -117,5 +403,5 @@
     });
     </script>
 
-    <?//php include "include/section-footer.php"; ?>
+    <?php include "include/section-footer.php"; ?>
     <?php include "include/section-footer-scripts.php"; ?>
