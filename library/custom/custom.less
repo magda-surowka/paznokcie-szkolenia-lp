@@ -401,6 +401,44 @@ body {
   }
 }
 
+#return-to-top {
+  position: fixed;
+  z-index: 333;
+  height: 45px;
+  width: 45px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 100px;
+  border: 1px solid @color2;
+  background-color: @color1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 350ms ease;
+  cursor: pointer;
+  transform: translateY(50px);
+
+  svg {
+    fill: #000;
+    height: 13px;
+    width: 13px;
+    transform: rotate(-90deg);
+  }
+
+  &:hover {
+    background: darken(@color1, 10%);
+  }
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+}
+
 nav.section-header {
   transition: all 0.5s;
   position: fixed;
@@ -481,13 +519,13 @@ nav.section-header {
 
   &.scrolled {
     .header-management {
-      padding: 10px 20px;
+      padding: 10px;
       background-color: @color2;
 
       .management-logo {
         a {
           img {
-            transform: scale(0.85);
+            transform: scale(0.8);
           }
         }
       }
@@ -638,6 +676,95 @@ section.section-welcome {
         background-color: @color1;
       }
 
+      .accordion {
+        margin-top: 50px;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .accordion-item {
+          .accordion-header {
+            .accordion-button {
+              font-family: "tt_commonsdemibold";
+              transition: all 300ms;
+              box-shadow: none;
+              text-align: left;
+              border: none;
+              padding: 0;
+              background: none;
+              font-size: 18px;
+              letter-spacing: 1.5px;
+              backface-visibility: hidden;
+
+              span {
+                padding-left: 40px;
+                display: block;
+                position: relative;
+
+                &:after {
+                  position: absolute;
+                  background: none;
+                  content: "-";
+                  font-size: 20px;
+                  transform: translateY(-4px);
+                  top: 0;
+                  left: 7px;
+                  transition: all 300ms;
+                }
+              }
+
+              &.collapsed {
+                color: #000;
+                font-family: "tt_commonsdeminormal";
+
+                span {
+                  &:after {
+                    content: "+";
+                  }
+                }
+              }
+
+              &:after {
+                content: none;
+              }
+
+              &:hover {
+                span::after {
+                  color: @color1;
+                  transform: translateY(-4px) translateZ(0) scale(1.5);
+                }
+              }
+
+              &:focus,
+              &:active {
+                border: none;
+                outline: none;
+              }
+            }
+          }
+
+          .accordion-collapse {
+            border: none;
+          }
+
+          .accordion-body {
+            padding: 10px 0 0 40px;
+
+            p {
+              letter-spacing: 1.5px;
+              font-size: 15px;
+              line-height: 1.7;
+            }
+          }
+
+          & + .accordion-item {
+            margin-top: 20px;
+          }
+        }
+      }
+
       .inner-logos {
         position: absolute;
         left: 0;
@@ -684,16 +811,6 @@ section.section-welcome {
             font-family: "tt_commonslight";
           }
         }
-
-        ul {
-          padding-top: 40px;
-
-          li {
-            font-size: 18px;
-            letter-spacing: 1.5px;
-            padding: 5px 0;
-          }
-        }
       }
 
       .btn-default {
@@ -734,6 +851,8 @@ section.section-offer {
   }
 
   .wrapper-inner {
+    min-height: 700px;
+
     header {
       margin-bottom: 60px;
 
@@ -807,7 +926,7 @@ section.section-offer {
             padding: 20px;
             text-transform: uppercase;
             font-size: 32px;
-            letter-spacing: 1.7px;
+            letter-spacing: 2px;
             font-family: "tt_commonslight";
           }
 
@@ -823,14 +942,15 @@ section.section-offer {
         left: 0;
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         width: 100%;
         height: 100px;
-        gap: 20px;
+        gap: 15px;
 
         &:after {
           position: absolute;
           z-index: -1;
-          top: -25px;
+          top: 0;
           right: 50%;
           content: "";
           background-color: @color2;
@@ -842,27 +962,24 @@ section.section-offer {
         .owl-next {
           background-color: @color1;
           border-radius: 100px;
-          width: 50px;
-          height: 50px;
+          width: 45px;
+          height: 45px;
 
-          span {
-            font-size: 32px;
-            letter-spacing: 1px;
-            margin: 0 5px;
+          img {
+            width: 12px;
           }
         }
 
         .owl-prev {
-          margin-left: 10px;
           transition: transform 350ms;
+          transform: rotate(-180deg);
 
           &:hover {
-            transform: translatex(-7px);
+            transform: translatex(-7px) rotate(-180deg);
           }
         }
 
         .owl-next {
-          margin-right: 10px;
           transition: transform 350ms;
 
           &:hover {
@@ -920,12 +1037,12 @@ section.section-about {
         font-family: "Tenor Sans", sans-serif;
         font-size: 50px;
         line-height: 1.7;
-        letter-spacing: 1.7px;
+        letter-spacing: 2px;
       }
 
       p {
         font-size: 19px;
-        letter-spacing: 1.7px;
+        letter-spacing: 2px;
         line-height: 0;
         font-family: "tt_commonslight";
         text-transform: uppercase;
@@ -983,21 +1100,21 @@ section.section-testimonials {
         .owl-next {
           background-color: @color1;
           border-radius: 100px;
-          width: 50px;
-          height: 50px;
+          width: 45px;
+          height: 45px;
 
-          span {
-            font-size: 28px;
-            letter-spacing: 1px;
+          img {
+            width: 12px;
           }
         }
 
         .owl-prev {
           margin-left: 10px;
           transition: transform 350ms;
+          transform: rotate(-180deg);
 
           &:hover {
-            transform: translatex(-7px);
+            transform: translatex(-7px) rotate(-180deg);
           }
         }
 
@@ -1144,6 +1261,7 @@ section.section-footer {
 
         span {
           font-size: 22px;
+          letter-spacing: 1.5px;
         }
 
         a {
@@ -1232,16 +1350,17 @@ section.section-footer {
         textarea {
           width: 100%;
           background-color: transparent;
+          padding: 3px 0;
         }
 
         label {
-          margin: 10px 0 10px 0;
+          margin: 0;
           text-align: left;
           font-size: 16px;
-          width: 100%;
-          color: #000;
           line-height: 1.7;
           letter-spacing: 1.5px;
+          width: 100%;
+          color: #000;
         }
       }
 
@@ -1250,12 +1369,10 @@ section.section-footer {
         display: block;
         border: none;
         border-radius: 0;
-        padding: 0;
         font-size: 16px;
         line-height: 1.7;
         letter-spacing: 1.5px;
-        margin: 10px 0;
-        padding: 5px 0;
+        padding: 7px 0;
         background-color: transparent;
         cursor: pointer;
       }
