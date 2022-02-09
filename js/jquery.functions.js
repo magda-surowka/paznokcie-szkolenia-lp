@@ -102,5 +102,23 @@ $(document).ready(function () {
         );
       });
 
+    //  scroll-to-top arrow
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() >= 50) {
+        $("#return-to-top").addClass("active");
+        } else {
+        $("#return-to-top").removeClass("active");
+        }
+    });
+    $("#return-to-top").click(function () {
+        $("body,html").animate(
+        {
+            scrollTop: 0,
+        },
+        900
+        );
+    });
+
   // -------------------------- //
 });

@@ -279,7 +279,7 @@
                                     </li>
                                     <li>
                                         29 maj, godz. 15.30-21.30
-                                        <h4>Warsztaty MIX MEDIA SUMMER (grupa max 12 os)</h4>
+                                        <h4>Warsztaty MIX MEDIA SUMMER <br> (grupa max 12 os)</h4>
                                         <p class="price">cena:<strong> 400 zł</strong></p>
                                     </li>
                                 </ul>
@@ -298,6 +298,7 @@
             center: true,
             loop: true,
             nav: true,
+            navText: ["<img src='img/icons/arrow.svg'>", "<img src='img/icons/arrow.svg'>"],
             dots: false,
             items: 1,
             autoHeight: true,
@@ -385,6 +386,7 @@
         center: true,
         loop: true,
         nav: true,
+        navText: ["<img src='img/icons/arrow.svg'>", "<img src='img/icons/arrow.svg'>"],
         dots: false,
         items: 3,
         margin: 10,
