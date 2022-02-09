@@ -9,6 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#EEEAE7">
     <link rel="shortcut icon" type="image/png" href="img/logo/favicon.png">
 
     <title>Malwina Chałat | Szkolenia i warsztaty ze stylizacji paznokci</title>
@@ -16,6 +17,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 
     <!-- Styles -->
     <link href="library/bootstrap-4.4.1/css/bootstrap.min.css" rel="stylesheet">
@@ -350,6 +352,7 @@
             items: 1,
             autoHeight: true,
             slideTransition: 'linear',
+            margin: 20,
         });
         </script>
 
@@ -394,14 +397,14 @@
                 <div class="owl-carousel-testimonials owl-carousel">
                     <div class="testimonial">
                         <h2>Polecam serdecznie
-                            <p>Anna Nowak</p>
+                            <span>Anna Nowak</span>
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
                             error quas fugit?</p>
                     </div>
                     <div class="testimonial">
                         <h2>Super szkolenie
-                            <p>Ola Jakubiak</p>
+                            <span>Ola Jakubiak</span>
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
                             error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
@@ -409,7 +412,7 @@
                     </div>
                     <div class="testimonial">
                         <h2>Cenna wiedza
-                            <p>Kasia Olszewska</p>
+                            <span>Kasia Olszewska</span>
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
                             error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae
@@ -417,7 +420,7 @@
                     </div>
                     <div class="testimonial">
                         <h2>Przystępne ceny
-                            <p>Iga Wasiak</p>
+                            <span>Iga Wasiak</span>
                         </h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, animi ut. Suscipit excepturi
                             error quas fugit? Placeat ex veritatis modi, ipsa voluptate voluptatem qui culpa, molestiae.
@@ -435,13 +438,25 @@
         nav: true,
         navText: ["<img src='img/icons/arrow.svg'>", "<img src='img/icons/arrow.svg'>"],
         dots: false,
-        items: 3,
         margin: 10,
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+            768: {
+                items: 2,
+
+            },
+            991: {
+                items: 3,
+            }
+        }
     });
     </script>
 
     <script src="js/skrollr.min.js"></script>
-    <script type="text/javascript">
+    <script>
     $(document).ready(function() {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator
                 .userAgent)) {} else {

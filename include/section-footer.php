@@ -9,7 +9,7 @@
 </a>
 
 <!-- ============================== SECTION-FOOTER ============================== -->
-<section class="section-footer" id="formularz-zapisu">
+<section class="section-footer">
     <div class=" section-wrapper">
         <div class="footer-wrapper">
             <div class="footer-text">
@@ -47,7 +47,7 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-form">
+            <div class="footer-form" id="formularz-zapisu">
                 <form method="post" action="">
                     <h2>Formularz zapisu</h2>
                     <div class="row">
@@ -78,8 +78,8 @@
                         <div class="form-element col-lg-8">
                             <label>Szkolenie*</label>
                             <div class="input-wrapper">
-                                <select name="" required="required">
-                                    <option selected="true" disabled="disabled">Wybierz szkolenie</option>
+                                <select name="" required>
+                                    <option selected disabled>Wybierz szkolenie</option>
                                     <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
                                     <option value="">Szkolenie Idealna ballerina - trenerka Malwina Chałat</option>
                                     <option value="">Szkolenie COMPLEX - trenerka Anna Nowak</option>
