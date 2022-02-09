@@ -17,7 +17,7 @@ var config = {
   cssIn: "./css/**/*.css",
   cssOut: "./css/",
   cssOutName: "style.css",
-  localhostIn: "http://localhost/m-chalat",
+  localhostIn: "http://localhost/malwina-chalat",
 };
 
 gulp.task("reload", function () {
