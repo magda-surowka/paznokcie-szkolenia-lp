@@ -15,7 +15,7 @@
                     </button>
                 </div>
                 <div class="management-logo">
-                    <a href="index">
+                    <a href="">
                         <img src="img/logo/logo-black.svg" alt="">
                     </a>
                 </div>

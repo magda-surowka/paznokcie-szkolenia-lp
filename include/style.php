@@ -1,1 +1,1 @@
-<link href="css/style.css" rel="stylesheet">
+<link rel="preload stylesheet" href="css/style.css" as="style">

@@ -22,7 +22,8 @@
 
     <!-- Owl Carousel 2 Styles-->
     <link href="library/owl.carousel2-2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
-    <?php include "include/style.php"; ?>
+    <link rel="stylesheet" href="<?php echo __CSS__;?>style.css?<?php echo time(); ?>">
+    <?//php include "include/style.php"; ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,11 +55,57 @@
                         <h1>Profesjonalna <br>
                             <span>stylizacja paznokci pod okiem Mistrzyni Świata</span>
                         </h1>
-                        <ul class="list-unstyled">
-                            <li>- Szeroka gama profesjonalnych szkoleń z zakresu stylizacji paznokci</li>
-                            <li>- Niezbędna wiedza do tego, aby stać się najlepszą, zawodową stylistką</li>
-                            <li>- Tylko u mnie: najmodniejsze kolory, najlepsze produkty, najnowsza wiedza</li>
-                        </ul>
+                        <div class="accordion" id="accordionExample">
+                            <div class="flexbox-inner">
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="heading1">
+                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                            <span>Ponad 20 profesjonalnych szkoleń i warsztatów</span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                        data-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                                                nesciunt ipsam perspiciatis at magni vel! Illo minima exercitationem
+                                                doloribus odit!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="heading2">
+                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                            <span>Wykwalifikowany zespół, najlepsze produkty</span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                        data-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                                dolores consectetur sequi architecto asperiores deserunt nostrum quos
+                                                amet sit beatae.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h3 class="accordion-header" id="heading3">
+                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                            <span>Zawsze aktualna i rzetelna wiedza</span>
+                                        </button>
+                                    </h3>
+                                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                        data-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, modi
+                                                repellendus ut nam amet perspiciatis!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a href="#szkolenia" data-scroll="scroll" class=" btn btn-default">Aktualne szkolenia</a>
                     </header>
                     <div class="inner-logos">
